@@ -32,7 +32,7 @@
     NSLog(@"Hello World! Your Framework is working well!");
     NSDictionary* headers = @{@"accept": @"application/json"};
     NSDictionary* parameters = @{@"parameter": @"value", @"foo": @"bar"};
-    
+
     UNIHTTPJsonResponse *response = [[UNIRest post:^(UNISimpleRequest *request) {
         [request setUrl:@"http://httpbin.org/post"];
         [request setHeaders:headers];
