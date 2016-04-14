@@ -16,3 +16,6 @@
 // Sanity checks
 #define TEST_URL "/test"
 #define HELLOWORLD_URL "/"
+
+// Framework Infomation
+#define VERSION_NUMBER [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"]
