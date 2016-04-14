@@ -7,6 +7,7 @@
 //
 
 #import "Authentication.h"
+#import <UNIRest.h>
 
 @implementation Authentication
 
@@ -20,8 +21,24 @@
 }
 
 // Testing private methods, view API for explanation
-+ (void)number:(NSString *)token;
-+ (void)number:(NSString *)token tokenNumber:(NSString *)number;
-+ (void)helloWorld;
++ (void)number:(NSString *)token {
+    
+}
++ (void)number:(NSString *)token tokenNumber:(NSString *)number {
+    
+}
+
++ (void)helloWorld {
+    NSLog(@"Hello World! Your Framework is working well!");
+    NSDictionary* headers = @{@"accept": @"application/json"};
+    NSDictionary* parameters = @{@"parameter": @"value", @"foo": @"bar"};
+    
+    UNIHTTPJsonResponse *response = [[UNIRest post:^(UNISimpleRequest *request) {
+        [request setUrl:@"http://httpbin.org/post"];
+        [request setHeaders:headers];
+        [request setParameters:parameters];
+    }] asJson];
+
+}
 
 @end

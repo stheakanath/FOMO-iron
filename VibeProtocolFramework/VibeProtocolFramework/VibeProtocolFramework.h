@@ -16,3 +16,4 @@ FOUNDATION_EXPORT const unsigned char VibeProtocolFrameworkVersionString[];
 
 // All import headers
 #import <VibeProtocolFramework/Authentication.h>
+

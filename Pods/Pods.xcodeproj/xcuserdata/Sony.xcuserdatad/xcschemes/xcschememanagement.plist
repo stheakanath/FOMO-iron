@@ -3,15 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>SchemeUserState</key>
-	<dict/>
+	<dict>
+		<key>Pods-VibeProtocolFramework.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Unirest.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>EB1377171CBF76D40048A065</key>
+		<key>2EC0FDD939BDFED47141782A637453BA</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>EB1377211CBF76D40048A065</key>
+		<key>B13B62D3CDF93A908FB3FF2342029222</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04E5E0BC17510CCA34DFE09D0A24E32F /* UNIRest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2005F14C0D66271A8E5129B48ECA418D /* UNIRest.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		20ACAAB92C8ABE4B420504FA1123E1E3 /* UNIHTTPJsonResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 250CAAD7F7EEE45F209FB7F25B68D9B5 /* UNIHTTPJsonResponse.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		20BA485BE6EF1C57CB7290CEDCF11A2C /* UNISimpleRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = F230A4410D6783822A4F059F0C134906 /* UNISimpleRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E1907F241EE01CDA9C52279F401051D /* UNIHTTPResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FF406AB33892FFFD36E0034DFB17F90 /* UNIHTTPResponse.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		305434BBDC8F95C4827C030297079E64 /* Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = EB34E635D31EDB35D4D1442AF9CDDF6B /* Base64.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		353A39E50267E9E5E365479E1F7ECDD6 /* Unirest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A684E8CA97D292E8F64B2435B7A79180 /* Unirest-dummy.m */; };
+		358835CA2DB130D193457CE6323C5E3F /* UNIBaseRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = A1884A954CABF2827719E37AE5E8115E /* UNIBaseRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36A9741AD104C4B8B2A951FC5BB1989A /* Pods-VibeProtocolFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A78A937C57402D6884A6E455D4D0A58 /* Pods-VibeProtocolFramework-dummy.m */; };
+		37E686F65CB42B54D6584C1F40F693FB /* UNIHTTPClientHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 03A7A90309399E4E1BAD3A1ABADF3531 /* UNIHTTPClientHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C3ABD55F9E4016FBDBECC8A7970AAAD /* UNIHTTPJsonResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = CAF9F288B326586DD40307FEEA812449 /* UNIHTTPJsonResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3CC2380A89BA1090DC9D32416827E495 /* UNIHTTPResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BF1A11F0519B097EC993C5C39051499 /* UNIHTTPResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E2EA0A7DEFC826CD2475828D1CFB87C /* UNIBodyRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = A50AC0804ECAA99840F287894304CE1C /* UNIBodyRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4BFAAFFC127FEF33CC21F96F7CC4CC0E /* UNIHTTPStringResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 22D253E534E2179E22E58D2B935B7A64 /* UNIHTTPStringResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		505C8147E9CD7FF294E6A83E7FE7C9E6 /* UNISimpleRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 871144C5A232C107D0834385A2CA50B0 /* UNISimpleRequest.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5126B56051846ACB8AC978B193B1361F /* UNIJsonNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 3211B7CE6CE1D01032E150694941E506 /* UNIJsonNode.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		6DE71F77BBB8D32CFAB3B84E4767A55D /* UNIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF00390C22F124A4D23C9070B532798 /* UNIHTTPRequest.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		704900C8182D4752A9673CB0862C5A95 /* UNIBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 99831834905F24E69D5B24FA9D70D95D /* UNIBaseRequest.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		73F61D3B07A88FADDC255FC1AA3D4921 /* UNIHTTPBinaryResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 326C24CEF074570E21F21F3EDAF4BA67 /* UNIHTTPBinaryResponse.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		79512C63B169D5E4252883D85A6F7D55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		7C1C42A91ADDF6017416FEB7810A5118 /* UNIJsonNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CBA3E1E9012ACDF9253D21EDF7D79A9 /* UNIJsonNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		816FBFE3D54E5CC4EA972F6ED7ED6079 /* UNIHTTPRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 8207F24222F0BAEE1A3FE1D6BD98240D /* UNIHTTPRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85BE9082B3B4C4557A3061B664CE5694 /* UNIBodyRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1765CBFDF2550F9882112A85A59FBA3F /* UNIBodyRequest.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9DC0756BA026A1C12AC448040DEDFC3D /* UNIHTTPRequestWithBody.h in Headers */ = {isa = PBXBuildFile; fileRef = 236C98FF8990A8FAAEFB23263376E26E /* UNIHTTPRequestWithBody.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3A1ACE294E5275B4D23C5D2C66DC4D9 /* UNIUrlConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 72346BFA7A8990DE27CA4B55477D1694 /* UNIUrlConnection.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		ABA1435C5595E061F344FE7C87F0D0CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		C01D071C00AAD582C2DD8932704900FD /* UNIUrlConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AC9D799A84F9795B2262C630FA97C7F /* UNIUrlConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCAA5A42430BD79E64DDC1D7FC1B8CCB /* UNIHTTPBinaryResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = F121BDEB4C4D91D2062DDCC120628603 /* UNIHTTPBinaryResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE2EEEE4404845C11E16B39990CB2CB4 /* UNIHTTPStringResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = A71930EE39408B94CA9CA16B92226EEF /* UNIHTTPStringResponse.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E166302E7648E3CB3DA0307D93C9DBDA /* UNIHTTPClientHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0286256EF41090EAD47D0A7D84F24600 /* UNIHTTPClientHelper.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E88DB58C255E8827F61517EE3528854C /* UNIRest.h in Headers */ = {isa = PBXBuildFile; fileRef = 028DC2C31355ADAE3853E313E849E22A /* UNIRest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA5D6C5D6F4BC549A0C2AD1CFC1BCFB4 /* UNIHTTPRequestWithBody.m in Sources */ = {isa = PBXBuildFile; fileRef = BEEF636B534C3C8125ABF918C0F0AC4D /* UNIHTTPRequestWithBody.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F36A65A80F0EAD8C6E31673ED506CACA /* Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CC8DC2AC9F68DAD1C254380C6AB10F5 /* Base64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C20BEA192C3112D8ADEE2C328484337B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2EC0FDD939BDFED47141782A637453BA;
+			remoteInfo = Unirest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0286256EF41090EAD47D0A7D84F24600 /* UNIHTTPClientHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UNIHTTPClientHelper.m; path = Unirest/UNIHTTPClientHelper.m; sourceTree = "<group>"; };
+		028DC2C31355ADAE3853E313E849E22A /* UNIRest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UNIRest.h; path = Unirest/UNIRest.h; sourceTree = "<group>"; };
+		03A7A90309399E4E1BAD3A1ABADF3531 /* UNIHTTPClientHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UNIHTTPClientHelper.h; path = Unirest/UNIHTTPClientHelper.h; sourceTree = "<group>"; };
+		0C7F4C1D963E5CF2046C3E081DAED8BE /* Unirest.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Unirest.xcconfig; sourceTree = "<group>"; };
+		0CBA3E1E9012ACDF9253D21EDF7D79A9 /* UNIJsonNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UNIJsonNode.h; path = Unirest/HttpResponse/UNIJsonNode.h; sourceTree = "<group>"; };
+		1765CBFDF2550F9882112A85A59FBA3F /* UNIBodyRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UNIBodyRequest.m; path = Unirest/HttpRequest/UNIBodyRequest.m; sourceTree = "<group>"; };
+		2005F14C0D66271A8E5129B48ECA418D /* UNIRest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UNIRest.m; path = Unirest/UNIRest.m; sourceTree = "<group>"; };
+		22D253E534E2179E22E58D2B935B7A64 /* UNIHTTPStringResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UNIHTTPStringResponse.h; path = Unirest/HttpResponse/UNIHTTPStringResponse.h; sourceTree = "<group>"; };
+		236C98FF8990A8FAAEFB23263376E26E /* UNIHTTPRequestWithBody.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UNIHTTPRequestWithBody.h; path = Unirest/UNIHTTPRequestWithBody.h; sourceTree = "<group>"; };
+		250CAAD7F7EEE45F209FB7F25B68D9B5 /* UNIHTTPJsonResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UNIHTTPJsonResponse.m; path = Unirest/HttpResponse/UNIHTTPJsonResponse.m; sourceTree = "<group>"; };
+		3211B7CE6CE1D01032E150694941E506 /* UNIJsonNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UNIJsonNode.m; path = Unirest/HttpResponse/UNIJsonNode.m; sourceTree = "<group>"; };
+		326C24CEF074570E21F21F3EDAF4BA67 /* UNIHTTPBinaryResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UNIHTTPBinaryResponse.m; path = Unirest/HttpResponse/UNIHTTPBinaryResponse.m; sourceTree = "<group>"; };
+		3AC9D799A84F9795B2262C630FA97C7F /* UNIUrlConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UNIUrlConnection.h; path = Unirest/UNIUrlConnection.h; sourceTree = "<group>"; };
+		3B3418D82D1071E20B35941EF19E3377 /* Pods-VibeProtocolFramework-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VibeProtocolFramework-resources.sh"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5A78A937C57402D6884A6E455D4D0A58 /* Pods-VibeProtocolFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VibeProtocolFramework-dummy.m"; sourceTree = "<group>"; };
+		5CC8DC2AC9F68DAD1C254380C6AB10F5 /* Base64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Base64.h; path = Unirest/Base64.h; sourceTree = "<group>"; };
+		5FF406AB33892FFFD36E0034DFB17F90 /* UNIHTTPResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UNIHTTPResponse.m; path = Unirest/HttpResponse/UNIHTTPResponse.m; sourceTree = "<group>"; };
+		72346BFA7A8990DE27CA4B55477D1694 /* UNIUrlConnection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UNIUrlConnection.m; path = Unirest/UNIUrlConnection.m; sourceTree = "<group>"; };
+		728810AC133BE989E0A34DAF2B56BC7B /* Pods-VibeProtocolFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VibeProtocolFramework.release.xcconfig"; sourceTree = "<group>"; };
+		7BF1A11F0519B097EC993C5C39051499 /* UNIHTTPResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UNIHTTPResponse.h; path = Unirest/HttpResponse/UNIHTTPResponse.h; sourceTree = "<group>"; };
+		8207F24222F0BAEE1A3FE1D6BD98240D /* UNIHTTPRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UNIHTTPRequest.h; path = Unirest/UNIHTTPRequest.h; sourceTree = "<group>"; };
+		871144C5A232C107D0834385A2CA50B0 /* UNISimpleRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UNISimpleRequest.m; path = Unirest/HttpRequest/UNISimpleRequest.m; sourceTree = "<group>"; };
+		99810772F878A7429FEC5488B9CEFB23 /* Pods-VibeProtocolFramework-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VibeProtocolFramework-acknowledgements.markdown"; sourceTree = "<group>"; };
+		99831834905F24E69D5B24FA9D70D95D /* UNIBaseRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UNIBaseRequest.m; path = Unirest/HttpRequest/UNIBaseRequest.m; sourceTree = "<group>"; };
+		9CF095D6B17232E48D4D31BCDD65058C /* libUnirest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libUnirest.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1884A954CABF2827719E37AE5E8115E /* UNIBaseRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UNIBaseRequest.h; path = Unirest/HttpRequest/UNIBaseRequest.h; sourceTree = "<group>"; };
+		A50AC0804ECAA99840F287894304CE1C /* UNIBodyRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UNIBodyRequest.h; path = Unirest/HttpRequest/UNIBodyRequest.h; sourceTree = "<group>"; };
+		A684E8CA97D292E8F64B2435B7A79180 /* Unirest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Unirest-dummy.m"; sourceTree = "<group>"; };
+		A71930EE39408B94CA9CA16B92226EEF /* UNIHTTPStringResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UNIHTTPStringResponse.m; path = Unirest/HttpResponse/UNIHTTPStringResponse.m; sourceTree = "<group>"; };
+		B2B6620CB1D88C365C30C6EDBDA7A614 /* Pods-VibeProtocolFramework-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VibeProtocolFramework-frameworks.sh"; sourceTree = "<group>"; };
+		B48C6B83639712178C6C6B0CD1D9716B /* Pods-VibeProtocolFramework-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VibeProtocolFramework-acknowledgements.plist"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BEEF636B534C3C8125ABF918C0F0AC4D /* UNIHTTPRequestWithBody.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UNIHTTPRequestWithBody.m; path = Unirest/UNIHTTPRequestWithBody.m; sourceTree = "<group>"; };
+		CAF9F288B326586DD40307FEEA812449 /* UNIHTTPJsonResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UNIHTTPJsonResponse.h; path = Unirest/HttpResponse/UNIHTTPJsonResponse.h; sourceTree = "<group>"; };
+		E5FEE74D637D00BE4DAAB01779873823 /* Pods-VibeProtocolFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VibeProtocolFramework.debug.xcconfig"; sourceTree = "<group>"; };
+		EB34E635D31EDB35D4D1442AF9CDDF6B /* Base64.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Base64.m; path = Unirest/Base64.m; sourceTree = "<group>"; };
+		F121BDEB4C4D91D2062DDCC120628603 /* UNIHTTPBinaryResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UNIHTTPBinaryResponse.h; path = Unirest/HttpResponse/UNIHTTPBinaryResponse.h; sourceTree = "<group>"; };
+		F230A4410D6783822A4F059F0C134906 /* UNISimpleRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UNISimpleRequest.h; path = Unirest/HttpRequest/UNISimpleRequest.h; sourceTree = "<group>"; };
+		F82567934F2D2B08A303504B9FB57517 /* libPods-VibeProtocolFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VibeProtocolFramework.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9394249C6D222A07571861023ACBE00 /* Unirest-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Unirest-prefix.pch"; sourceTree = "<group>"; };
+		FFF00390C22F124A4D23C9070B532798 /* UNIHTTPRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UNIHTTPRequest.m; path = Unirest/UNIHTTPRequest.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BB658872B50E375ADAC1B5866A684AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABA1435C5595E061F344FE7C87F0D0CC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9B1259DE6D844A8841FE2A60879051B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79512C63B169D5E4252883D85A6F7D55 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		509136B9D33D38A02C3E8A738A1E874D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C7F4C1D963E5CF2046C3E081DAED8BE /* Unirest.xcconfig */,
+				A684E8CA97D292E8F64B2435B7A79180 /* Unirest-dummy.m */,
+				F9394249C6D222A07571861023ACBE00 /* Unirest-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Unirest";
+			sourceTree = "<group>";
+		};
+		51F2E11505EAE0C029CC2992B3E58632 /* Unirest */ = {
+			isa = PBXGroup;
+			children = (
+				5CC8DC2AC9F68DAD1C254380C6AB10F5 /* Base64.h */,
+				EB34E635D31EDB35D4D1442AF9CDDF6B /* Base64.m */,
+				A1884A954CABF2827719E37AE5E8115E /* UNIBaseRequest.h */,
+				99831834905F24E69D5B24FA9D70D95D /* UNIBaseRequest.m */,
+				A50AC0804ECAA99840F287894304CE1C /* UNIBodyRequest.h */,
+				1765CBFDF2550F9882112A85A59FBA3F /* UNIBodyRequest.m */,
+				F121BDEB4C4D91D2062DDCC120628603 /* UNIHTTPBinaryResponse.h */,
+				326C24CEF074570E21F21F3EDAF4BA67 /* UNIHTTPBinaryResponse.m */,
+				03A7A90309399E4E1BAD3A1ABADF3531 /* UNIHTTPClientHelper.h */,
+				0286256EF41090EAD47D0A7D84F24600 /* UNIHTTPClientHelper.m */,
+				CAF9F288B326586DD40307FEEA812449 /* UNIHTTPJsonResponse.h */,
+				250CAAD7F7EEE45F209FB7F25B68D9B5 /* UNIHTTPJsonResponse.m */,
+				8207F24222F0BAEE1A3FE1D6BD98240D /* UNIHTTPRequest.h */,
+				FFF00390C22F124A4D23C9070B532798 /* UNIHTTPRequest.m */,
+				236C98FF8990A8FAAEFB23263376E26E /* UNIHTTPRequestWithBody.h */,
+				BEEF636B534C3C8125ABF918C0F0AC4D /* UNIHTTPRequestWithBody.m */,
+				7BF1A11F0519B097EC993C5C39051499 /* UNIHTTPResponse.h */,
+				5FF406AB33892FFFD36E0034DFB17F90 /* UNIHTTPResponse.m */,
+				22D253E534E2179E22E58D2B935B7A64 /* UNIHTTPStringResponse.h */,
+				A71930EE39408B94CA9CA16B92226EEF /* UNIHTTPStringResponse.m */,
+				0CBA3E1E9012ACDF9253D21EDF7D79A9 /* UNIJsonNode.h */,
+				3211B7CE6CE1D01032E150694941E506 /* UNIJsonNode.m */,
+				028DC2C31355ADAE3853E313E849E22A /* UNIRest.h */,
+				2005F14C0D66271A8E5129B48ECA418D /* UNIRest.m */,
+				F230A4410D6783822A4F059F0C134906 /* UNISimpleRequest.h */,
+				871144C5A232C107D0834385A2CA50B0 /* UNISimpleRequest.m */,
+				3AC9D799A84F9795B2262C630FA97C7F /* UNIUrlConnection.h */,
+				72346BFA7A8990DE27CA4B55477D1694 /* UNIUrlConnection.m */,
+				509136B9D33D38A02C3E8A738A1E874D /* Support Files */,
+			);
+			path = Unirest;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				91A361FC7A4F19339A4E72946021DABE /* Pods */,
+				E6A3D65ABD0D67704BE87EDDD860B25D /* Products */,
+				F5397AC3AF4F26F6C8F7EB504EC6FC25 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		91A361FC7A4F19339A4E72946021DABE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				51F2E11505EAE0C029CC2992B3E58632 /* Unirest */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E6A3D65ABD0D67704BE87EDDD860B25D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F82567934F2D2B08A303504B9FB57517 /* libPods-VibeProtocolFramework.a */,
+				9CF095D6B17232E48D4D31BCDD65058C /* libUnirest.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE4F9FD841578F1A9A08889B135D7CAF /* Pods-VibeProtocolFramework */ = {
+			isa = PBXGroup;
+			children = (
+				99810772F878A7429FEC5488B9CEFB23 /* Pods-VibeProtocolFramework-acknowledgements.markdown */,
+				B48C6B83639712178C6C6B0CD1D9716B /* Pods-VibeProtocolFramework-acknowledgements.plist */,
+				5A78A937C57402D6884A6E455D4D0A58 /* Pods-VibeProtocolFramework-dummy.m */,
+				B2B6620CB1D88C365C30C6EDBDA7A614 /* Pods-VibeProtocolFramework-frameworks.sh */,
+				3B3418D82D1071E20B35941EF19E3377 /* Pods-VibeProtocolFramework-resources.sh */,
+				E5FEE74D637D00BE4DAAB01779873823 /* Pods-VibeProtocolFramework.debug.xcconfig */,
+				728810AC133BE989E0A34DAF2B56BC7B /* Pods-VibeProtocolFramework.release.xcconfig */,
+			);
+			name = "Pods-VibeProtocolFramework";
+			path = "Target Support Files/Pods-VibeProtocolFramework";
+			sourceTree = "<group>";
+		};
+		F5397AC3AF4F26F6C8F7EB504EC6FC25 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE4F9FD841578F1A9A08889B135D7CAF /* Pods-VibeProtocolFramework */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9642DB0F919852680FF611289DE08A63 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F36A65A80F0EAD8C6E31673ED506CACA /* Base64.h in Headers */,
+				358835CA2DB130D193457CE6323C5E3F /* UNIBaseRequest.h in Headers */,
+				3E2EA0A7DEFC826CD2475828D1CFB87C /* UNIBodyRequest.h in Headers */,
+				DCAA5A42430BD79E64DDC1D7FC1B8CCB /* UNIHTTPBinaryResponse.h in Headers */,
+				37E686F65CB42B54D6584C1F40F693FB /* UNIHTTPClientHelper.h in Headers */,
+				3C3ABD55F9E4016FBDBECC8A7970AAAD /* UNIHTTPJsonResponse.h in Headers */,
+				816FBFE3D54E5CC4EA972F6ED7ED6079 /* UNIHTTPRequest.h in Headers */,
+				9DC0756BA026A1C12AC448040DEDFC3D /* UNIHTTPRequestWithBody.h in Headers */,
+				3CC2380A89BA1090DC9D32416827E495 /* UNIHTTPResponse.h in Headers */,
+				4BFAAFFC127FEF33CC21F96F7CC4CC0E /* UNIHTTPStringResponse.h in Headers */,
+				7C1C42A91ADDF6017416FEB7810A5118 /* UNIJsonNode.h in Headers */,
+				E88DB58C255E8827F61517EE3528854C /* UNIRest.h in Headers */,
+				20BA485BE6EF1C57CB7290CEDCF11A2C /* UNISimpleRequest.h in Headers */,
+				C01D071C00AAD582C2DD8932704900FD /* UNIUrlConnection.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2EC0FDD939BDFED47141782A637453BA /* Unirest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6ACDCC6D35F68C04D897920A1F4130C2 /* Build configuration list for PBXNativeTarget "Unirest" */;
+			buildPhases = (
+				963D6573C1DA5E1E670589276564B40A /* Sources */,
+				D9B1259DE6D844A8841FE2A60879051B /* Frameworks */,
+				9642DB0F919852680FF611289DE08A63 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Unirest;
+			productName = Unirest;
+			productReference = 9CF095D6B17232E48D4D31BCDD65058C /* libUnirest.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B13B62D3CDF93A908FB3FF2342029222 /* Pods-VibeProtocolFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F82DED88FD3C41DB47830DC4664D0809 /* Build configuration list for PBXNativeTarget "Pods-VibeProtocolFramework" */;
+			buildPhases = (
+				DF782ED5D8F0DFB0B386C062961259EB /* Sources */,
+				3BB658872B50E375ADAC1B5866A684AF /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				272A1ECD19F870066BE46EE99BAA2C40 /* PBXTargetDependency */,
+			);
+			name = "Pods-VibeProtocolFramework";
+			productName = "Pods-VibeProtocolFramework";
+			productReference = F82567934F2D2B08A303504B9FB57517 /* libPods-VibeProtocolFramework.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = E6A3D65ABD0D67704BE87EDDD860B25D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B13B62D3CDF93A908FB3FF2342029222 /* Pods-VibeProtocolFramework */,
+				2EC0FDD939BDFED47141782A637453BA /* Unirest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		963D6573C1DA5E1E670589276564B40A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				305434BBDC8F95C4827C030297079E64 /* Base64.m in Sources */,
+				704900C8182D4752A9673CB0862C5A95 /* UNIBaseRequest.m in Sources */,
+				85BE9082B3B4C4557A3061B664CE5694 /* UNIBodyRequest.m in Sources */,
+				73F61D3B07A88FADDC255FC1AA3D4921 /* UNIHTTPBinaryResponse.m in Sources */,
+				E166302E7648E3CB3DA0307D93C9DBDA /* UNIHTTPClientHelper.m in Sources */,
+				20ACAAB92C8ABE4B420504FA1123E1E3 /* UNIHTTPJsonResponse.m in Sources */,
+				6DE71F77BBB8D32CFAB3B84E4767A55D /* UNIHTTPRequest.m in Sources */,
+				EA5D6C5D6F4BC549A0C2AD1CFC1BCFB4 /* UNIHTTPRequestWithBody.m in Sources */,
+				2E1907F241EE01CDA9C52279F401051D /* UNIHTTPResponse.m in Sources */,
+				DE2EEEE4404845C11E16B39990CB2CB4 /* UNIHTTPStringResponse.m in Sources */,
+				5126B56051846ACB8AC978B193B1361F /* UNIJsonNode.m in Sources */,
+				353A39E50267E9E5E365479E1F7ECDD6 /* Unirest-dummy.m in Sources */,
+				04E5E0BC17510CCA34DFE09D0A24E32F /* UNIRest.m in Sources */,
+				505C8147E9CD7FF294E6A83E7FE7C9E6 /* UNISimpleRequest.m in Sources */,
+				A3A1ACE294E5275B4D23C5D2C66DC4D9 /* UNIUrlConnection.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF782ED5D8F0DFB0B386C062961259EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36A9741AD104C4B8B2A951FC5BB1989A /* Pods-VibeProtocolFramework-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		272A1ECD19F870066BE46EE99BAA2C40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Unirest;
+			target = 2EC0FDD939BDFED47141782A637453BA /* Unirest */;
+			targetProxy = C20BEA192C3112D8ADEE2C328484337B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		176EB4131FC495287E19A910DD545583 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C7F4C1D963E5CF2046C3E081DAED8BE /* Unirest.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Unirest/Unirest-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		2B389FAB51F6EEA43F72CA7BDC8E8E28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2BA1EC6D59232B39ACC21901F758F2AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 728810AC133BE989E0A34DAF2B56BC7B /* Pods-VibeProtocolFramework.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		36EFA5BE26E2374F3568FBB192E90509 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5FEE74D637D00BE4DAAB01779873823 /* Pods-VibeProtocolFramework.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5A0C6FE968931D888F00C9EC18DDF5BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2860E58665464D0E4A8B7A8AF49ECF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C7F4C1D963E5CF2046C3E081DAED8BE /* Unirest.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Unirest/Unirest-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B389FAB51F6EEA43F72CA7BDC8E8E28 /* Debug */,
+				5A0C6FE968931D888F00C9EC18DDF5BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6ACDCC6D35F68C04D897920A1F4130C2 /* Build configuration list for PBXNativeTarget "Unirest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2860E58665464D0E4A8B7A8AF49ECF2 /* Debug */,
+				176EB4131FC495287E19A910DD545583 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F82DED88FD3C41DB47830DC4664D0809 /* Build configuration list for PBXNativeTarget "Pods-VibeProtocolFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36EFA5BE26E2374F3568FBB192E90509 /* Debug */,
+				2BA1EC6D59232B39ACC21901F758F2AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

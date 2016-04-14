@@ -1,0 +1,652 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		308C566F22972E275B4A0C6E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E0B5D33F419D85B799B1425 /* libPods.a */; };
+		69D5B18D4B67462E67D3081F /* libPods-iron.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E1B8DD1044F9E3498718FD56 /* libPods-iron.a */; };
+		EBF739FB1CBF5D4000F2CC92 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF739FA1CBF5D4000F2CC92 /* main.m */; };
+		EBF739FE1CBF5D4000F2CC92 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF739FD1CBF5D4000F2CC92 /* AppDelegate.m */; };
+		EBF73A011CBF5D4000F2CC92 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF73A001CBF5D4000F2CC92 /* ViewController.m */; };
+		EBF73A041CBF5D4000F2CC92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBF73A021CBF5D4000F2CC92 /* Main.storyboard */; };
+		EBF73A061CBF5D4000F2CC92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBF73A051CBF5D4000F2CC92 /* Assets.xcassets */; };
+		EBF73A091CBF5D4000F2CC92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBF73A071CBF5D4000F2CC92 /* LaunchScreen.storyboard */; };
+		EBF73A141CBF5D4000F2CC92 /* ironTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF73A131CBF5D4000F2CC92 /* ironTests.m */; };
+		EBF73A1F1CBF5D4000F2CC92 /* ironUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF73A1E1CBF5D4000F2CC92 /* ironUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB1377821CBF7E1B0048A065 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB13777D1CBF7E1B0048A065 /* VibeProtocolFramework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EB1377181CBF76D40048A065;
+			remoteInfo = VibeProtocolFramework;
+		};
+		EB1377841CBF7E1B0048A065 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB13777D1CBF7E1B0048A065 /* VibeProtocolFramework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EB1377221CBF76D40048A065;
+			remoteInfo = VibeProtocolFrameworkTests;
+		};
+		EB13778C1CBF81790048A065 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB13777D1CBF7E1B0048A065 /* VibeProtocolFramework.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = EB1377171CBF76D40048A065;
+			remoteInfo = VibeProtocolFramework;
+		};
+		EBF73A101CBF5D4000F2CC92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBF739EE1CBF5D4000F2CC92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBF739F51CBF5D4000F2CC92;
+			remoteInfo = iron;
+		};
+		EBF73A1B1CBF5D4000F2CC92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBF739EE1CBF5D4000F2CC92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBF739F51CBF5D4000F2CC92;
+			remoteInfo = iron;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EBF73A4A1CBF65A000F2CC92 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0B3FFC285AD44BDFB7780D88 /* Pods-iron.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iron.release.xcconfig"; path = "../Pods/Target Support Files/Pods-iron/Pods-iron.release.xcconfig"; sourceTree = "<group>"; };
+		8B32559CB1C400103DC691B0 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		8E0B5D33F419D85B799B1425 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9400E240B574559D348B5469 /* Pods-iron.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iron.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-iron/Pods-iron.debug.xcconfig"; sourceTree = "<group>"; };
+		CC690CBE44EF334CB5F95DA5 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		E1B8DD1044F9E3498718FD56 /* libPods-iron.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iron.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB1377361CBF77540048A065 /* VibeProtocolFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VibeProtocolFramework.framework; path = "VibeProtocolFramework/build/Debug-iphoneos/VibeProtocolFramework.framework"; sourceTree = "<group>"; };
+		EB13777D1CBF7E1B0048A065 /* VibeProtocolFramework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = VibeProtocolFramework.xcodeproj; path = ../VibeProtocolFramework/VibeProtocolFramework.xcodeproj; sourceTree = "<group>"; };
+		EBF739F61CBF5D4000F2CC92 /* iron.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iron.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBF739FA1CBF5D4000F2CC92 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EBF739FC1CBF5D4000F2CC92 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EBF739FD1CBF5D4000F2CC92 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EBF739FF1CBF5D4000F2CC92 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EBF73A001CBF5D4000F2CC92 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EBF73A031CBF5D4000F2CC92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EBF73A051CBF5D4000F2CC92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EBF73A081CBF5D4000F2CC92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EBF73A0A1CBF5D4000F2CC92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBF73A0F1CBF5D4000F2CC92 /* ironTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ironTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBF73A131CBF5D4000F2CC92 /* ironTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ironTests.m; sourceTree = "<group>"; };
+		EBF73A151CBF5D4000F2CC92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBF73A1A1CBF5D4000F2CC92 /* ironUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ironUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBF73A1E1CBF5D4000F2CC92 /* ironUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ironUITests.m; sourceTree = "<group>"; };
+		EBF73A201CBF5D4000F2CC92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBF739F31CBF5D4000F2CC92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				308C566F22972E275B4A0C6E /* libPods.a in Frameworks */,
+				69D5B18D4B67462E67D3081F /* libPods-iron.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBF73A0C1CBF5D4000F2CC92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBF73A171CBF5D4000F2CC92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFE410EBF2087D9521154E92 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8B32559CB1C400103DC691B0 /* Pods.debug.xcconfig */,
+				CC690CBE44EF334CB5F95DA5 /* Pods.release.xcconfig */,
+				9400E240B574559D348B5469 /* Pods-iron.debug.xcconfig */,
+				0B3FFC285AD44BDFB7780D88 /* Pods-iron.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CC8A54947A6083EF83B2151B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB1377361CBF77540048A065 /* VibeProtocolFramework.framework */,
+				8E0B5D33F419D85B799B1425 /* libPods.a */,
+				E1B8DD1044F9E3498718FD56 /* libPods-iron.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB13777E1CBF7E1B0048A065 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB1377831CBF7E1B0048A065 /* VibeProtocolFramework.framework */,
+				EB1377851CBF7E1B0048A065 /* VibeProtocolFrameworkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBF739ED1CBF5D4000F2CC92 = {
+			isa = PBXGroup;
+			children = (
+				EB13777D1CBF7E1B0048A065 /* VibeProtocolFramework.xcodeproj */,
+				EBF739F81CBF5D4000F2CC92 /* iron */,
+				EBF73A121CBF5D4000F2CC92 /* ironTests */,
+				EBF73A1D1CBF5D4000F2CC92 /* ironUITests */,
+				EBF739F71CBF5D4000F2CC92 /* Products */,
+				BFE410EBF2087D9521154E92 /* Pods */,
+				CC8A54947A6083EF83B2151B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EBF739F71CBF5D4000F2CC92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBF739F61CBF5D4000F2CC92 /* iron.app */,
+				EBF73A0F1CBF5D4000F2CC92 /* ironTests.xctest */,
+				EBF73A1A1CBF5D4000F2CC92 /* ironUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBF739F81CBF5D4000F2CC92 /* iron */ = {
+			isa = PBXGroup;
+			children = (
+				EBF739FC1CBF5D4000F2CC92 /* AppDelegate.h */,
+				EBF739FD1CBF5D4000F2CC92 /* AppDelegate.m */,
+				EBF739FF1CBF5D4000F2CC92 /* ViewController.h */,
+				EBF73A001CBF5D4000F2CC92 /* ViewController.m */,
+				EBF73A021CBF5D4000F2CC92 /* Main.storyboard */,
+				EBF73A051CBF5D4000F2CC92 /* Assets.xcassets */,
+				EBF73A071CBF5D4000F2CC92 /* LaunchScreen.storyboard */,
+				EBF73A0A1CBF5D4000F2CC92 /* Info.plist */,
+				EBF739F91CBF5D4000F2CC92 /* Supporting Files */,
+			);
+			path = iron;
+			sourceTree = "<group>";
+		};
+		EBF739F91CBF5D4000F2CC92 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBF739FA1CBF5D4000F2CC92 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EBF73A121CBF5D4000F2CC92 /* ironTests */ = {
+			isa = PBXGroup;
+			children = (
+				EBF73A131CBF5D4000F2CC92 /* ironTests.m */,
+				EBF73A151CBF5D4000F2CC92 /* Info.plist */,
+			);
+			path = ironTests;
+			sourceTree = "<group>";
+		};
+		EBF73A1D1CBF5D4000F2CC92 /* ironUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EBF73A1E1CBF5D4000F2CC92 /* ironUITests.m */,
+				EBF73A201CBF5D4000F2CC92 /* Info.plist */,
+			);
+			path = ironUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBF739F51CBF5D4000F2CC92 /* iron */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBF73A231CBF5D4000F2CC92 /* Build configuration list for PBXNativeTarget "iron" */;
+			buildPhases = (
+				EBF739F21CBF5D4000F2CC92 /* Sources */,
+				EBF739F31CBF5D4000F2CC92 /* Frameworks */,
+				EBF739F41CBF5D4000F2CC92 /* Resources */,
+				EBF73A4A1CBF65A000F2CC92 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB13778D1CBF81790048A065 /* PBXTargetDependency */,
+			);
+			name = iron;
+			productName = iron;
+			productReference = EBF739F61CBF5D4000F2CC92 /* iron.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EBF73A0E1CBF5D4000F2CC92 /* ironTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBF73A261CBF5D4000F2CC92 /* Build configuration list for PBXNativeTarget "ironTests" */;
+			buildPhases = (
+				EBF73A0B1CBF5D4000F2CC92 /* Sources */,
+				EBF73A0C1CBF5D4000F2CC92 /* Frameworks */,
+				EBF73A0D1CBF5D4000F2CC92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBF73A111CBF5D4000F2CC92 /* PBXTargetDependency */,
+			);
+			name = ironTests;
+			productName = ironTests;
+			productReference = EBF73A0F1CBF5D4000F2CC92 /* ironTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EBF73A191CBF5D4000F2CC92 /* ironUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBF73A291CBF5D4000F2CC92 /* Build configuration list for PBXNativeTarget "ironUITests" */;
+			buildPhases = (
+				EBF73A161CBF5D4000F2CC92 /* Sources */,
+				EBF73A171CBF5D4000F2CC92 /* Frameworks */,
+				EBF73A181CBF5D4000F2CC92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBF73A1C1CBF5D4000F2CC92 /* PBXTargetDependency */,
+			);
+			name = ironUITests;
+			productName = ironUITests;
+			productReference = EBF73A1A1CBF5D4000F2CC92 /* ironUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBF739EE1CBF5D4000F2CC92 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Kuriakose Sony Theakanath";
+				TargetAttributes = {
+					EBF739F51CBF5D4000F2CC92 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					EBF73A0E1CBF5D4000F2CC92 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = EBF739F51CBF5D4000F2CC92;
+					};
+					EBF73A191CBF5D4000F2CC92 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = EBF739F51CBF5D4000F2CC92;
+					};
+				};
+			};
+			buildConfigurationList = EBF739F11CBF5D4000F2CC92 /* Build configuration list for PBXProject "iron" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EBF739ED1CBF5D4000F2CC92;
+			productRefGroup = EBF739F71CBF5D4000F2CC92 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = EB13777E1CBF7E1B0048A065 /* Products */;
+					ProjectRef = EB13777D1CBF7E1B0048A065 /* VibeProtocolFramework.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				EBF739F51CBF5D4000F2CC92 /* iron */,
+				EBF73A0E1CBF5D4000F2CC92 /* ironTests */,
+				EBF73A191CBF5D4000F2CC92 /* ironUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		EB1377831CBF7E1B0048A065 /* VibeProtocolFramework.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = VibeProtocolFramework.framework;
+			remoteRef = EB1377821CBF7E1B0048A065 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		EB1377851CBF7E1B0048A065 /* VibeProtocolFrameworkTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = VibeProtocolFrameworkTests.xctest;
+			remoteRef = EB1377841CBF7E1B0048A065 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBF739F41CBF5D4000F2CC92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBF73A091CBF5D4000F2CC92 /* LaunchScreen.storyboard in Resources */,
+				EBF73A061CBF5D4000F2CC92 /* Assets.xcassets in Resources */,
+				EBF73A041CBF5D4000F2CC92 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBF73A0D1CBF5D4000F2CC92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBF73A181CBF5D4000F2CC92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBF739F21CBF5D4000F2CC92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBF73A011CBF5D4000F2CC92 /* ViewController.m in Sources */,
+				EBF739FE1CBF5D4000F2CC92 /* AppDelegate.m in Sources */,
+				EBF739FB1CBF5D4000F2CC92 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBF73A0B1CBF5D4000F2CC92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBF73A141CBF5D4000F2CC92 /* ironTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBF73A161CBF5D4000F2CC92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBF73A1F1CBF5D4000F2CC92 /* ironUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB13778D1CBF81790048A065 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VibeProtocolFramework;
+			targetProxy = EB13778C1CBF81790048A065 /* PBXContainerItemProxy */;
+		};
+		EBF73A111CBF5D4000F2CC92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBF739F51CBF5D4000F2CC92 /* iron */;
+			targetProxy = EBF73A101CBF5D4000F2CC92 /* PBXContainerItemProxy */;
+		};
+		EBF73A1C1CBF5D4000F2CC92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBF739F51CBF5D4000F2CC92 /* iron */;
+			targetProxy = EBF73A1B1CBF5D4000F2CC92 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EBF73A021CBF5D4000F2CC92 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBF73A031CBF5D4000F2CC92 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EBF73A071CBF5D4000F2CC92 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBF73A081CBF5D4000F2CC92 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EBF73A211CBF5D4000F2CC92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EBF73A221CBF5D4000F2CC92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBF73A241CBF5D4000F2CC92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9400E240B574559D348B5469 /* Pods-iron.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/VibeProtocolFramework/build/Debug-iphoneos",
+				);
+				INFOPLIST_FILE = iron/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/iron/VibeProtocol/build/Debug-iphoneos",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sonytheakanath.iron;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "../** $(BUILT_PRODUCTS_DIR)/**";
+			};
+			name = Debug;
+		};
+		EBF73A251CBF5D4000F2CC92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B3FFC285AD44BDFB7780D88 /* Pods-iron.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/VibeProtocolFramework/build/Debug-iphoneos",
+				);
+				INFOPLIST_FILE = iron/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/iron/VibeProtocol/build/Debug-iphoneos",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sonytheakanath.iron;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "../** $(BUILT_PRODUCTS_DIR)/**";
+			};
+			name = Release;
+		};
+		EBF73A271CBF5D4000F2CC92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ironTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sonytheakanath.ironTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iron.app/iron";
+			};
+			name = Debug;
+		};
+		EBF73A281CBF5D4000F2CC92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ironTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sonytheakanath.ironTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iron.app/iron";
+			};
+			name = Release;
+		};
+		EBF73A2A1CBF5D4000F2CC92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ironUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sonytheakanath.ironUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = iron;
+			};
+			name = Debug;
+		};
+		EBF73A2B1CBF5D4000F2CC92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ironUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sonytheakanath.ironUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = iron;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBF739F11CBF5D4000F2CC92 /* Build configuration list for PBXProject "iron" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBF73A211CBF5D4000F2CC92 /* Debug */,
+				EBF73A221CBF5D4000F2CC92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBF73A231CBF5D4000F2CC92 /* Build configuration list for PBXNativeTarget "iron" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBF73A241CBF5D4000F2CC92 /* Debug */,
+				EBF73A251CBF5D4000F2CC92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBF73A261CBF5D4000F2CC92 /* Build configuration list for PBXNativeTarget "ironTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBF73A271CBF5D4000F2CC92 /* Debug */,
+				EBF73A281CBF5D4000F2CC92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBF73A291CBF5D4000F2CC92 /* Build configuration list for PBXNativeTarget "ironUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBF73A2A1CBF5D4000F2CC92 /* Debug */,
+				EBF73A2B1CBF5D4000F2CC92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBF739EE1CBF5D4000F2CC92 /* Project object */;
+}

@@ -7,87 +7,111 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EBF73A5C1CBF681700F2CC92 /* VibeProtocolFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = EBF73A5B1CBF681700F2CC92 /* VibeProtocolFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EBF73A631CBF681700F2CC92 /* VibeProtocolFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBF73A581CBF681700F2CC92 /* VibeProtocolFramework.framework */; };
-		EBF73A681CBF681700F2CC92 /* VibeProtocolFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF73A671CBF681700F2CC92 /* VibeProtocolFrameworkTests.m */; };
-		EBF73A811CBF697700F2CC92 /* Authentication.h in Headers */ = {isa = PBXBuildFile; fileRef = EBF73A7F1CBF697700F2CC92 /* Authentication.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EBF73A821CBF697700F2CC92 /* Authentication.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF73A801CBF697700F2CC92 /* Authentication.m */; };
+		5C0EC96CA61B997A53FDFED7 /* libPods-VibeProtocolFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 640094FCE7BB81986BE269C4 /* libPods-VibeProtocolFramework.a */; };
+		EB13771C1CBF76D40048A065 /* VibeProtocolFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = EB13771B1CBF76D40048A065 /* VibeProtocolFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB1377231CBF76D40048A065 /* VibeProtocolFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB1377181CBF76D40048A065 /* VibeProtocolFramework.framework */; };
+		EB1377281CBF76D40048A065 /* VibeProtocolFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB1377271CBF76D40048A065 /* VibeProtocolFrameworkTests.m */; };
+		EB1377341CBF77250048A065 /* Authentication.h in Headers */ = {isa = PBXBuildFile; fileRef = EB1377321CBF77250048A065 /* Authentication.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB1377351CBF77250048A065 /* Authentication.m in Sources */ = {isa = PBXBuildFile; fileRef = EB1377331CBF77250048A065 /* Authentication.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		EBF73A641CBF681700F2CC92 /* PBXContainerItemProxy */ = {
+		EB1377241CBF76D40048A065 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = EBF73A4F1CBF681700F2CC92 /* Project object */;
+			containerPortal = EB13770F1CBF76D40048A065 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = EBF73A571CBF681700F2CC92;
+			remoteGlobalIDString = EB1377171CBF76D40048A065;
 			remoteInfo = VibeProtocolFramework;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		EBF73A581CBF681700F2CC92 /* VibeProtocolFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VibeProtocolFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EBF73A5B1CBF681700F2CC92 /* VibeProtocolFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VibeProtocolFramework.h; sourceTree = "<group>"; };
-		EBF73A5D1CBF681700F2CC92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EBF73A621CBF681700F2CC92 /* VibeProtocolFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VibeProtocolFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EBF73A671CBF681700F2CC92 /* VibeProtocolFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VibeProtocolFrameworkTests.m; sourceTree = "<group>"; };
-		EBF73A691CBF681700F2CC92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EBF73A7F1CBF697700F2CC92 /* Authentication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Authentication.h; sourceTree = "<group>"; };
-		EBF73A801CBF697700F2CC92 /* Authentication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Authentication.m; sourceTree = "<group>"; };
+		0ABA470CD341F2FA39F89EF6 /* Pods-VibeProtocolFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VibeProtocolFramework.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-VibeProtocolFramework/Pods-VibeProtocolFramework.debug.xcconfig"; sourceTree = "<group>"; };
+		640094FCE7BB81986BE269C4 /* libPods-VibeProtocolFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VibeProtocolFramework.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1DC084F3FDDC25ED80CF443 /* Pods-VibeProtocolFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VibeProtocolFramework.release.xcconfig"; path = "../Pods/Target Support Files/Pods-VibeProtocolFramework/Pods-VibeProtocolFramework.release.xcconfig"; sourceTree = "<group>"; };
+		EB1377181CBF76D40048A065 /* VibeProtocolFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VibeProtocolFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB13771B1CBF76D40048A065 /* VibeProtocolFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VibeProtocolFramework.h; sourceTree = "<group>"; };
+		EB13771D1CBF76D40048A065 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB1377221CBF76D40048A065 /* VibeProtocolFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VibeProtocolFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB1377271CBF76D40048A065 /* VibeProtocolFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VibeProtocolFrameworkTests.m; sourceTree = "<group>"; };
+		EB1377291CBF76D40048A065 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB1377321CBF77250048A065 /* Authentication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Authentication.h; sourceTree = "<group>"; };
+		EB1377331CBF77250048A065 /* Authentication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Authentication.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		EBF73A541CBF681700F2CC92 /* Frameworks */ = {
+		EB1377141CBF76D40048A065 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C0EC96CA61B997A53FDFED7 /* libPods-VibeProtocolFramework.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EBF73A5F1CBF681700F2CC92 /* Frameworks */ = {
+		EB13771F1CBF76D40048A065 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EBF73A631CBF681700F2CC92 /* VibeProtocolFramework.framework in Frameworks */,
+				EB1377231CBF76D40048A065 /* VibeProtocolFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		EBF73A4E1CBF681700F2CC92 = {
+		5A6CE52F1E2D8431F7171CC1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				EBF73A5A1CBF681700F2CC92 /* VibeProtocolFramework */,
-				EBF73A661CBF681700F2CC92 /* VibeProtocolFrameworkTests */,
-				EBF73A591CBF681700F2CC92 /* Products */,
+				640094FCE7BB81986BE269C4 /* libPods-VibeProtocolFramework.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		894B81E2C42EA087B6D3F0DC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0ABA470CD341F2FA39F89EF6 /* Pods-VibeProtocolFramework.debug.xcconfig */,
+				B1DC084F3FDDC25ED80CF443 /* Pods-VibeProtocolFramework.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EB13770E1CBF76D40048A065 = {
+			isa = PBXGroup;
+			children = (
+				EB13771A1CBF76D40048A065 /* VibeProtocolFramework */,
+				EB1377261CBF76D40048A065 /* VibeProtocolFrameworkTests */,
+				EB1377191CBF76D40048A065 /* Products */,
+				894B81E2C42EA087B6D3F0DC /* Pods */,
+				5A6CE52F1E2D8431F7171CC1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		EBF73A591CBF681700F2CC92 /* Products */ = {
+		EB1377191CBF76D40048A065 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EBF73A581CBF681700F2CC92 /* VibeProtocolFramework.framework */,
-				EBF73A621CBF681700F2CC92 /* VibeProtocolFrameworkTests.xctest */,
+				EB1377181CBF76D40048A065 /* VibeProtocolFramework.framework */,
+				EB1377221CBF76D40048A065 /* VibeProtocolFrameworkTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EBF73A5A1CBF681700F2CC92 /* VibeProtocolFramework */ = {
+		EB13771A1CBF76D40048A065 /* VibeProtocolFramework */ = {
 			isa = PBXGroup;
 			children = (
-				EBF73A5B1CBF681700F2CC92 /* VibeProtocolFramework.h */,
-				EBF73A7F1CBF697700F2CC92 /* Authentication.h */,
-				EBF73A801CBF697700F2CC92 /* Authentication.m */,
-				EBF73A5D1CBF681700F2CC92 /* Info.plist */,
+				EB13771B1CBF76D40048A065 /* VibeProtocolFramework.h */,
+				EB1377321CBF77250048A065 /* Authentication.h */,
+				EB1377331CBF77250048A065 /* Authentication.m */,
+				EB13771D1CBF76D40048A065 /* Info.plist */,
 			);
 			path = VibeProtocolFramework;
 			sourceTree = "<group>";
 		};
-		EBF73A661CBF681700F2CC92 /* VibeProtocolFrameworkTests */ = {
+		EB1377261CBF76D40048A065 /* VibeProtocolFrameworkTests */ = {
 			isa = PBXGroup;
 			children = (
-				EBF73A671CBF681700F2CC92 /* VibeProtocolFrameworkTests.m */,
-				EBF73A691CBF681700F2CC92 /* Info.plist */,
+				EB1377271CBF76D40048A065 /* VibeProtocolFrameworkTests.m */,
+				EB1377291CBF76D40048A065 /* Info.plist */,
 			);
 			path = VibeProtocolFrameworkTests;
 			sourceTree = "<group>";
@@ -95,26 +119,28 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		EBF73A551CBF681700F2CC92 /* Headers */ = {
+		EB1377151CBF76D40048A065 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EBF73A811CBF697700F2CC92 /* Authentication.h in Headers */,
-				EBF73A5C1CBF681700F2CC92 /* VibeProtocolFramework.h in Headers */,
+				EB1377341CBF77250048A065 /* Authentication.h in Headers */,
+				EB13771C1CBF76D40048A065 /* VibeProtocolFramework.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		EBF73A571CBF681700F2CC92 /* VibeProtocolFramework */ = {
+		EB1377171CBF76D40048A065 /* VibeProtocolFramework */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EBF73A6C1CBF681700F2CC92 /* Build configuration list for PBXNativeTarget "VibeProtocolFramework" */;
+			buildConfigurationList = EB13772C1CBF76D40048A065 /* Build configuration list for PBXNativeTarget "VibeProtocolFramework" */;
 			buildPhases = (
-				EBF73A531CBF681700F2CC92 /* Sources */,
-				EBF73A541CBF681700F2CC92 /* Frameworks */,
-				EBF73A551CBF681700F2CC92 /* Headers */,
-				EBF73A561CBF681700F2CC92 /* Resources */,
+				CD46E65135BB2273DE1C8495 /* Check Pods Manifest.lock */,
+				EB1377131CBF76D40048A065 /* Sources */,
+				EB1377141CBF76D40048A065 /* Frameworks */,
+				EB1377151CBF76D40048A065 /* Headers */,
+				EB1377161CBF76D40048A065 /* Resources */,
+				056F6B4DF5D0274475385327 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -122,71 +148,71 @@
 			);
 			name = VibeProtocolFramework;
 			productName = VibeProtocolFramework;
-			productReference = EBF73A581CBF681700F2CC92 /* VibeProtocolFramework.framework */;
+			productReference = EB1377181CBF76D40048A065 /* VibeProtocolFramework.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		EBF73A611CBF681700F2CC92 /* VibeProtocolFrameworkTests */ = {
+		EB1377211CBF76D40048A065 /* VibeProtocolFrameworkTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EBF73A6F1CBF681700F2CC92 /* Build configuration list for PBXNativeTarget "VibeProtocolFrameworkTests" */;
+			buildConfigurationList = EB13772F1CBF76D40048A065 /* Build configuration list for PBXNativeTarget "VibeProtocolFrameworkTests" */;
 			buildPhases = (
-				EBF73A5E1CBF681700F2CC92 /* Sources */,
-				EBF73A5F1CBF681700F2CC92 /* Frameworks */,
-				EBF73A601CBF681700F2CC92 /* Resources */,
+				EB13771E1CBF76D40048A065 /* Sources */,
+				EB13771F1CBF76D40048A065 /* Frameworks */,
+				EB1377201CBF76D40048A065 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				EBF73A651CBF681700F2CC92 /* PBXTargetDependency */,
+				EB1377251CBF76D40048A065 /* PBXTargetDependency */,
 			);
 			name = VibeProtocolFrameworkTests;
 			productName = VibeProtocolFrameworkTests;
-			productReference = EBF73A621CBF681700F2CC92 /* VibeProtocolFrameworkTests.xctest */;
+			productReference = EB1377221CBF76D40048A065 /* VibeProtocolFrameworkTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		EBF73A4F1CBF681700F2CC92 /* Project object */ = {
+		EB13770F1CBF76D40048A065 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Kuriakose Sony Theakanath";
 				TargetAttributes = {
-					EBF73A571CBF681700F2CC92 = {
+					EB1377171CBF76D40048A065 = {
 						CreatedOnToolsVersion = 7.3;
 					};
-					EBF73A611CBF681700F2CC92 = {
+					EB1377211CBF76D40048A065 = {
 						CreatedOnToolsVersion = 7.3;
 					};
 				};
 			};
-			buildConfigurationList = EBF73A521CBF681700F2CC92 /* Build configuration list for PBXProject "VibeProtocolFramework" */;
+			buildConfigurationList = EB1377121CBF76D40048A065 /* Build configuration list for PBXProject "VibeProtocolFramework" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = EBF73A4E1CBF681700F2CC92;
-			productRefGroup = EBF73A591CBF681700F2CC92 /* Products */;
+			mainGroup = EB13770E1CBF76D40048A065;
+			productRefGroup = EB1377191CBF76D40048A065 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EBF73A571CBF681700F2CC92 /* VibeProtocolFramework */,
-				EBF73A611CBF681700F2CC92 /* VibeProtocolFrameworkTests */,
+				EB1377171CBF76D40048A065 /* VibeProtocolFramework */,
+				EB1377211CBF76D40048A065 /* VibeProtocolFrameworkTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		EBF73A561CBF681700F2CC92 /* Resources */ = {
+		EB1377161CBF76D40048A065 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EBF73A601CBF681700F2CC92 /* Resources */ = {
+		EB1377201CBF76D40048A065 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -195,35 +221,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		056F6B4DF5D0274475385327 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-VibeProtocolFramework/Pods-VibeProtocolFramework-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD46E65135BB2273DE1C8495 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		EBF73A531CBF681700F2CC92 /* Sources */ = {
+		EB1377131CBF76D40048A065 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EBF73A821CBF697700F2CC92 /* Authentication.m in Sources */,
+				EB1377351CBF77250048A065 /* Authentication.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EBF73A5E1CBF681700F2CC92 /* Sources */ = {
+		EB13771E1CBF76D40048A065 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EBF73A681CBF681700F2CC92 /* VibeProtocolFrameworkTests.m in Sources */,
+				EB1377281CBF76D40048A065 /* VibeProtocolFrameworkTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		EBF73A651CBF681700F2CC92 /* PBXTargetDependency */ = {
+		EB1377251CBF76D40048A065 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EBF73A571CBF681700F2CC92 /* VibeProtocolFramework */;
-			targetProxy = EBF73A641CBF681700F2CC92 /* PBXContainerItemProxy */;
+			target = EB1377171CBF76D40048A065 /* VibeProtocolFramework */;
+			targetProxy = EB1377241CBF76D40048A065 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		EBF73A6A1CBF681700F2CC92 /* Debug */ = {
+		EB13772A1CBF76D40048A065 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -271,7 +330,7 @@
 			};
 			name = Debug;
 		};
-		EBF73A6B1CBF681700F2CC92 /* Release */ = {
+		EB13772B1CBF76D40048A065 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -313,8 +372,9 @@
 			};
 			name = Release;
 		};
-		EBF73A6D1CBF681700F2CC92 /* Debug */ = {
+		EB13772D1CBF76D40048A065 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0ABA470CD341F2FA39F89EF6 /* Pods-VibeProtocolFramework.debug.xcconfig */;
 			buildSettings = {
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -329,8 +389,9 @@
 			};
 			name = Debug;
 		};
-		EBF73A6E1CBF681700F2CC92 /* Release */ = {
+		EB13772E1CBF76D40048A065 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1DC084F3FDDC25ED80CF443 /* Pods-VibeProtocolFramework.release.xcconfig */;
 			buildSettings = {
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -345,7 +406,7 @@
 			};
 			name = Release;
 		};
-		EBF73A701CBF681700F2CC92 /* Debug */ = {
+		EB1377301CBF76D40048A065 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = VibeProtocolFrameworkTests/Info.plist;
@@ -355,7 +416,7 @@
 			};
 			name = Debug;
 		};
-		EBF73A711CBF681700F2CC92 /* Release */ = {
+		EB1377311CBF76D40048A065 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = VibeProtocolFrameworkTests/Info.plist;
@@ -368,32 +429,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EBF73A521CBF681700F2CC92 /* Build configuration list for PBXProject "VibeProtocolFramework" */ = {
+		EB1377121CBF76D40048A065 /* Build configuration list for PBXProject "VibeProtocolFramework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EBF73A6A1CBF681700F2CC92 /* Debug */,
-				EBF73A6B1CBF681700F2CC92 /* Release */,
+				EB13772A1CBF76D40048A065 /* Debug */,
+				EB13772B1CBF76D40048A065 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EBF73A6C1CBF681700F2CC92 /* Build configuration list for PBXNativeTarget "VibeProtocolFramework" */ = {
+		EB13772C1CBF76D40048A065 /* Build configuration list for PBXNativeTarget "VibeProtocolFramework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EBF73A6D1CBF681700F2CC92 /* Debug */,
-				EBF73A6E1CBF681700F2CC92 /* Release */,
+				EB13772D1CBF76D40048A065 /* Debug */,
+				EB13772E1CBF76D40048A065 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		EBF73A6F1CBF681700F2CC92 /* Build configuration list for PBXNativeTarget "VibeProtocolFrameworkTests" */ = {
+		EB13772F1CBF76D40048A065 /* Build configuration list for PBXNativeTarget "VibeProtocolFrameworkTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EBF73A701CBF681700F2CC92 /* Debug */,
-				EBF73A711CBF681700F2CC92 /* Release */,
+				EB1377301CBF76D40048A065 /* Debug */,
+				EB1377311CBF76D40048A065 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = EBF73A4F1CBF681700F2CC92 /* Project object */;
+	rootObject = EB13770F1CBF76D40048A065 /* Project object */;
 }
