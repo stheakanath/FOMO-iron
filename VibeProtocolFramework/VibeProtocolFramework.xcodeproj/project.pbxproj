@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EBF73A5C1CBF681700F2CC92 /* VibeProtocolFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = EBF73A5B1CBF681700F2CC92 /* VibeProtocolFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EBF73A631CBF681700F2CC92 /* VibeProtocolFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBF73A581CBF681700F2CC92 /* VibeProtocolFramework.framework */; };
+		EBF73A681CBF681700F2CC92 /* VibeProtocolFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF73A671CBF681700F2CC92 /* VibeProtocolFrameworkTests.m */; };
+		EBF73A811CBF697700F2CC92 /* Authentication.h in Headers */ = {isa = PBXBuildFile; fileRef = EBF73A7F1CBF697700F2CC92 /* Authentication.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EBF73A821CBF697700F2CC92 /* Authentication.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF73A801CBF697700F2CC92 /* Authentication.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EBF73A641CBF681700F2CC92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBF73A4F1CBF681700F2CC92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBF73A571CBF681700F2CC92;
+			remoteInfo = VibeProtocolFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EBF73A581CBF681700F2CC92 /* VibeProtocolFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VibeProtocolFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBF73A5B1CBF681700F2CC92 /* VibeProtocolFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VibeProtocolFramework.h; sourceTree = "<group>"; };
+		EBF73A5D1CBF681700F2CC92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBF73A621CBF681700F2CC92 /* VibeProtocolFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VibeProtocolFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBF73A671CBF681700F2CC92 /* VibeProtocolFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VibeProtocolFrameworkTests.m; sourceTree = "<group>"; };
+		EBF73A691CBF681700F2CC92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBF73A7F1CBF697700F2CC92 /* Authentication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Authentication.h; sourceTree = "<group>"; };
+		EBF73A801CBF697700F2CC92 /* Authentication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Authentication.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBF73A541CBF681700F2CC92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBF73A5F1CBF681700F2CC92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBF73A631CBF681700F2CC92 /* VibeProtocolFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EBF73A4E1CBF681700F2CC92 = {
+			isa = PBXGroup;
+			children = (
+				EBF73A5A1CBF681700F2CC92 /* VibeProtocolFramework */,
+				EBF73A661CBF681700F2CC92 /* VibeProtocolFrameworkTests */,
+				EBF73A591CBF681700F2CC92 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EBF73A591CBF681700F2CC92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBF73A581CBF681700F2CC92 /* VibeProtocolFramework.framework */,
+				EBF73A621CBF681700F2CC92 /* VibeProtocolFrameworkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBF73A5A1CBF681700F2CC92 /* VibeProtocolFramework */ = {
+			isa = PBXGroup;
+			children = (
+				EBF73A5B1CBF681700F2CC92 /* VibeProtocolFramework.h */,
+				EBF73A7F1CBF697700F2CC92 /* Authentication.h */,
+				EBF73A801CBF697700F2CC92 /* Authentication.m */,
+				EBF73A5D1CBF681700F2CC92 /* Info.plist */,
+			);
+			path = VibeProtocolFramework;
+			sourceTree = "<group>";
+		};
+		EBF73A661CBF681700F2CC92 /* VibeProtocolFrameworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				EBF73A671CBF681700F2CC92 /* VibeProtocolFrameworkTests.m */,
+				EBF73A691CBF681700F2CC92 /* Info.plist */,
+			);
+			path = VibeProtocolFrameworkTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		EBF73A551CBF681700F2CC92 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBF73A811CBF697700F2CC92 /* Authentication.h in Headers */,
+				EBF73A5C1CBF681700F2CC92 /* VibeProtocolFramework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		EBF73A571CBF681700F2CC92 /* VibeProtocolFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBF73A6C1CBF681700F2CC92 /* Build configuration list for PBXNativeTarget "VibeProtocolFramework" */;
+			buildPhases = (
+				EBF73A531CBF681700F2CC92 /* Sources */,
+				EBF73A541CBF681700F2CC92 /* Frameworks */,
+				EBF73A551CBF681700F2CC92 /* Headers */,
+				EBF73A561CBF681700F2CC92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VibeProtocolFramework;
+			productName = VibeProtocolFramework;
+			productReference = EBF73A581CBF681700F2CC92 /* VibeProtocolFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EBF73A611CBF681700F2CC92 /* VibeProtocolFrameworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBF73A6F1CBF681700F2CC92 /* Build configuration list for PBXNativeTarget "VibeProtocolFrameworkTests" */;
+			buildPhases = (
+				EBF73A5E1CBF681700F2CC92 /* Sources */,
+				EBF73A5F1CBF681700F2CC92 /* Frameworks */,
+				EBF73A601CBF681700F2CC92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBF73A651CBF681700F2CC92 /* PBXTargetDependency */,
+			);
+			name = VibeProtocolFrameworkTests;
+			productName = VibeProtocolFrameworkTests;
+			productReference = EBF73A621CBF681700F2CC92 /* VibeProtocolFrameworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBF73A4F1CBF681700F2CC92 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Kuriakose Sony Theakanath";
+				TargetAttributes = {
+					EBF73A571CBF681700F2CC92 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					EBF73A611CBF681700F2CC92 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = EBF73A521CBF681700F2CC92 /* Build configuration list for PBXProject "VibeProtocolFramework" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EBF73A4E1CBF681700F2CC92;
+			productRefGroup = EBF73A591CBF681700F2CC92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBF73A571CBF681700F2CC92 /* VibeProtocolFramework */,
+				EBF73A611CBF681700F2CC92 /* VibeProtocolFrameworkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBF73A561CBF681700F2CC92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBF73A601CBF681700F2CC92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBF73A531CBF681700F2CC92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBF73A821CBF697700F2CC92 /* Authentication.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBF73A5E1CBF681700F2CC92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBF73A681CBF681700F2CC92 /* VibeProtocolFrameworkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EBF73A651CBF681700F2CC92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBF73A571CBF681700F2CC92 /* VibeProtocolFramework */;
+			targetProxy = EBF73A641CBF681700F2CC92 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EBF73A6A1CBF681700F2CC92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EBF73A6B1CBF681700F2CC92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EBF73A6D1CBF681700F2CC92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = VibeProtocolFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sonytheakanath.VibeProtocolFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		EBF73A6E1CBF681700F2CC92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = VibeProtocolFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sonytheakanath.VibeProtocolFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		EBF73A701CBF681700F2CC92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VibeProtocolFrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sonytheakanath.VibeProtocolFrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EBF73A711CBF681700F2CC92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VibeProtocolFrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sonytheakanath.VibeProtocolFrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBF73A521CBF681700F2CC92 /* Build configuration list for PBXProject "VibeProtocolFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBF73A6A1CBF681700F2CC92 /* Debug */,
+				EBF73A6B1CBF681700F2CC92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBF73A6C1CBF681700F2CC92 /* Build configuration list for PBXNativeTarget "VibeProtocolFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBF73A6D1CBF681700F2CC92 /* Debug */,
+				EBF73A6E1CBF681700F2CC92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EBF73A6F1CBF681700F2CC92 /* Build configuration list for PBXNativeTarget "VibeProtocolFrameworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBF73A701CBF681700F2CC92 /* Debug */,
+				EBF73A711CBF681700F2CC92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBF73A4F1CBF681700F2CC92 /* Project object */;
+}

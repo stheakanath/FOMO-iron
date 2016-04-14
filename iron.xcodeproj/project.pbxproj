@@ -15,6 +15,8 @@
 		EBF73A091CBF5D4000F2CC92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBF73A071CBF5D4000F2CC92 /* LaunchScreen.storyboard */; };
 		EBF73A141CBF5D4000F2CC92 /* ironTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF73A131CBF5D4000F2CC92 /* ironTests.m */; };
 		EBF73A1F1CBF5D4000F2CC92 /* ironUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF73A1E1CBF5D4000F2CC92 /* ironUITests.m */; };
+		EBF73A7D1CBF68B500F2CC92 /* VibeProtocolFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBF73A781CBF681800F2CC92 /* VibeProtocolFramework.framework */; };
+		EBF73A7E1CBF691A00F2CC92 /* VibeProtocolFramework.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = EBF73A781CBF681800F2CC92 /* VibeProtocolFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,7 +34,41 @@
 			remoteGlobalIDString = EBF739F51CBF5D4000F2CC92;
 			remoteInfo = iron;
 		};
+		EBF73A771CBF681800F2CC92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBF73A721CBF681700F2CC92 /* VibeProtocolFramework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EBF73A581CBF681700F2CC92;
+			remoteInfo = VibeProtocolFramework;
+		};
+		EBF73A791CBF681800F2CC92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBF73A721CBF681700F2CC92 /* VibeProtocolFramework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EBF73A621CBF681700F2CC92;
+			remoteInfo = VibeProtocolFrameworkTests;
+		};
+		EBF73A7B1CBF682600F2CC92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBF73A721CBF681700F2CC92 /* VibeProtocolFramework.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = EBF73A571CBF681700F2CC92;
+			remoteInfo = VibeProtocolFramework;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EBF73A4A1CBF65A000F2CC92 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				EBF73A7E1CBF691A00F2CC92 /* VibeProtocolFramework.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		EBF739F61CBF5D4000F2CC92 /* iron.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iron.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,7 +87,7 @@
 		EBF73A1A1CBF5D4000F2CC92 /* ironUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ironUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBF73A1E1CBF5D4000F2CC92 /* ironUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ironUITests.m; sourceTree = "<group>"; };
 		EBF73A201CBF5D4000F2CC92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EBF73A411CBF5F8A00F2CC92 /* VibeProtocol.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = VibeProtocol.xcodeproj; path = iron/VibeProtocol/VibeProtocol.xcodeproj; sourceTree = "<group>"; };
+		EBF73A721CBF681700F2CC92 /* VibeProtocolFramework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = VibeProtocolFramework.xcodeproj; path = VibeProtocolFramework/VibeProtocolFramework.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBF73A7D1CBF68B500F2CC92 /* VibeProtocolFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +119,7 @@
 		EBF739ED1CBF5D4000F2CC92 = {
 			isa = PBXGroup;
 			children = (
-				EBF73A411CBF5F8A00F2CC92 /* VibeProtocol.xcodeproj */,
+				EBF73A721CBF681700F2CC92 /* VibeProtocolFramework.xcodeproj */,
 				EBF739F81CBF5D4000F2CC92 /* iron */,
 				EBF73A121CBF5D4000F2CC92 /* ironTests */,
 				EBF73A1D1CBF5D4000F2CC92 /* ironUITests */,
@@ -142,6 +179,15 @@
 			path = ironUITests;
 			sourceTree = "<group>";
 		};
+		EBF73A731CBF681700F2CC92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBF73A781CBF681800F2CC92 /* VibeProtocolFramework.framework */,
+				EBF73A7A1CBF681800F2CC92 /* VibeProtocolFrameworkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -152,10 +198,12 @@
 				EBF739F21CBF5D4000F2CC92 /* Sources */,
 				EBF739F31CBF5D4000F2CC92 /* Frameworks */,
 				EBF739F41CBF5D4000F2CC92 /* Resources */,
+				EBF73A4A1CBF65A000F2CC92 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				EBF73A7C1CBF682600F2CC92 /* PBXTargetDependency */,
 			);
 			name = iron;
 			productName = iron;
@@ -231,6 +279,12 @@
 			mainGroup = EBF739ED1CBF5D4000F2CC92;
 			productRefGroup = EBF739F71CBF5D4000F2CC92 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = EBF73A731CBF681700F2CC92 /* Products */;
+					ProjectRef = EBF73A721CBF681700F2CC92 /* VibeProtocolFramework.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				EBF739F51CBF5D4000F2CC92 /* iron */,
@@ -239,6 +293,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		EBF73A781CBF681800F2CC92 /* VibeProtocolFramework.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = VibeProtocolFramework.framework;
+			remoteRef = EBF73A771CBF681800F2CC92 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		EBF73A7A1CBF681800F2CC92 /* VibeProtocolFrameworkTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = VibeProtocolFrameworkTests.xctest;
+			remoteRef = EBF73A791CBF681800F2CC92 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		EBF739F41CBF5D4000F2CC92 /* Resources */ = {
@@ -306,6 +377,11 @@
 			isa = PBXTargetDependency;
 			target = EBF739F51CBF5D4000F2CC92 /* iron */;
 			targetProxy = EBF73A1B1CBF5D4000F2CC92 /* PBXContainerItemProxy */;
+		};
+		EBF73A7C1CBF682600F2CC92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VibeProtocolFramework;
+			targetProxy = EBF73A7B1CBF682600F2CC92 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -419,6 +495,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = iron/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/iron/VibeProtocol/build/Debug-iphoneos",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sonytheakanath.iron;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -430,6 +510,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = iron/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/iron/VibeProtocol/build/Debug-iphoneos",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sonytheakanath.iron;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

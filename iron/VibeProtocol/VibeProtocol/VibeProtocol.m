@@ -10,4 +10,8 @@
 
 @implementation VibeProtocol
 
+- (void) test {
+    NSLog(@"testing framework calls");
+}
+
 @end

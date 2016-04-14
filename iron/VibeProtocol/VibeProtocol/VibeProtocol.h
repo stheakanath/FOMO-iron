@@ -10,4 +10,6 @@
 
 @interface VibeProtocol : NSObject
 
++ (void) test;
+
 @end

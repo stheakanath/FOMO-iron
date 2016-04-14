@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import <VibeProtocolFramework/Authentication.h>
 
 @interface ViewController ()
 
@@ -15,6 +16,7 @@
 @implementation ViewController
 
 - (void)viewDidLoad {
+    [Authentication test];
     [super viewDidLoad];
 }
 

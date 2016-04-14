@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EBF73A341CBF5F8A00F2CC92"
-               BuildableName = "libVibeProtocol.a"
-               BlueprintName = "VibeProtocol"
-               ReferencedContainer = "container:VibeProtocol.xcodeproj">
+               BlueprintIdentifier = "EBF73A571CBF681700F2CC92"
+               BuildableName = "VibeProtocolFramework.framework"
+               BlueprintName = "VibeProtocolFramework"
+               ReferencedContainer = "container:VibeProtocolFramework.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,7 +28,26 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "EBF73A611CBF681700F2CC92"
+               BuildableName = "VibeProtocolFrameworkTests.xctest"
+               BlueprintName = "VibeProtocolFrameworkTests"
+               ReferencedContainer = "container:VibeProtocolFramework.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "EBF73A571CBF681700F2CC92"
+            BuildableName = "VibeProtocolFramework.framework"
+            BlueprintName = "VibeProtocolFramework"
+            ReferencedContainer = "container:VibeProtocolFramework.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -45,10 +64,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EBF73A341CBF5F8A00F2CC92"
-            BuildableName = "libVibeProtocol.a"
-            BlueprintName = "VibeProtocol"
-            ReferencedContainer = "container:VibeProtocol.xcodeproj">
+            BlueprintIdentifier = "EBF73A571CBF681700F2CC92"
+            BuildableName = "VibeProtocolFramework.framework"
+            BlueprintName = "VibeProtocolFramework"
+            ReferencedContainer = "container:VibeProtocolFramework.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -63,10 +82,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EBF73A341CBF5F8A00F2CC92"
-            BuildableName = "libVibeProtocol.a"
-            BlueprintName = "VibeProtocol"
-            ReferencedContainer = "container:VibeProtocol.xcodeproj">
+            BlueprintIdentifier = "EBF73A571CBF681700F2CC92"
+            BuildableName = "VibeProtocolFramework.framework"
+            BlueprintName = "VibeProtocolFramework"
+            ReferencedContainer = "container:VibeProtocolFramework.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
