@@ -51,6 +51,7 @@
 		EBF73A1A1CBF5D4000F2CC92 /* ironUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ironUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBF73A1E1CBF5D4000F2CC92 /* ironUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ironUITests.m; sourceTree = "<group>"; };
 		EBF73A201CBF5D4000F2CC92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBF73A411CBF5F8A00F2CC92 /* VibeProtocol.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = VibeProtocol.xcodeproj; path = iron/VibeProtocol/VibeProtocol.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +82,7 @@
 		EBF739ED1CBF5D4000F2CC92 = {
 			isa = PBXGroup;
 			children = (
+				EBF73A411CBF5F8A00F2CC92 /* VibeProtocol.xcodeproj */,
 				EBF739F81CBF5D4000F2CC92 /* iron */,
 				EBF73A121CBF5D4000F2CC92 /* ironTests */,
 				EBF73A1D1CBF5D4000F2CC92 /* ironUITests */,
@@ -498,6 +500,7 @@
 				EBF73A251CBF5D4000F2CC92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EBF73A261CBF5D4000F2CC92 /* Build configuration list for PBXNativeTarget "ironTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +509,7 @@
 				EBF73A281CBF5D4000F2CC92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EBF73A291CBF5D4000F2CC92 /* Build configuration list for PBXNativeTarget "ironUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +518,7 @@
 				EBF73A2B1CBF5D4000F2CC92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
