@@ -7,14 +7,14 @@
 //
 
 // API calls
-#define SERVER_URL "https://vibemusic.com/api"
+#define SERVER_URL "https://vibe-driver.herokuapp.com"
 
 // Authentiation
-#define LOGIN_URL "/loginreg/email"
-#define FB_URL "/loginreg/fb"
+#define LOGIN_URL "/api/loginreg/email"
+#define FB_URL "/api/loginreg/fb"
 
 // Sanity checks
-#define TEST_URL "/test"
+#define TEST_URL "/api/test"
 #define HELLOWORLD_URL "/"
 
 // Framework Infomation

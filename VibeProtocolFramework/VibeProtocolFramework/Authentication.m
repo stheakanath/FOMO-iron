@@ -18,13 +18,15 @@
     NSDictionary *parameters = @{@"email": email, @"password": password};
     NSString *serverUrl = [NSString stringWithFormat:@"%s%s", SERVER_URL, LOGIN_URL];
 
-    UNIHTTPJsonResponse *response = [[UNIRest post:^(UNISimpleRequest *request) {
+    [[UNIRest get:^(UNISimpleRequest *request) {
         [request setUrl:serverUrl];
         [request setHeaders:headers];
         [request setParameters:parameters];
-    }] asJson];
-    
-    NSLog(@"%@", response);
+        NSLog(@"%@", serverUrl);
+    }] asJsonAsync:^(UNIHTTPJsonResponse* response, NSError *error) {
+        NSString* newStr = [[NSString alloc] initWithData:response.rawBody encoding:NSUTF8StringEncoding];
+        NSLog(@"%@", newStr);
+    }];
 }
 
 + (void)login:(NSString *)email userPassword:(NSString *)password {
@@ -32,13 +34,15 @@
     NSDictionary *parameters = @{@"email": email, @"password": password};
     NSString *serverUrl = [NSString stringWithFormat:@"%s%s", SERVER_URL, LOGIN_URL];
     
-    UNIHTTPJsonResponse *response = [[UNIRest post:^(UNISimpleRequest *request) {
+    [[UNIRest get:^(UNISimpleRequest *request) {
         [request setUrl:serverUrl];
         [request setHeaders:headers];
         [request setParameters:parameters];
-    }] asJson];
-    
-    NSLog(@"%@", response);
+        NSLog(@"%@", serverUrl);
+    }] asJsonAsync:^(UNIHTTPJsonResponse* response, NSError *error) {
+        NSString* newStr = [[NSString alloc] initWithData:response.rawBody encoding:NSUTF8StringEncoding];
+        NSLog(@"%@", newStr);
+    }];
 }
 
 // Testing private methods, view API for explanation
@@ -51,27 +55,28 @@
     NSDictionary *parameters = @{@"token": token, @"number": number};
     NSString *serverUrl = [NSString stringWithFormat:@"%s%s", SERVER_URL, TEST_URL];
     
-    UNIHTTPJsonResponse *response = [[UNIRest post:^(UNISimpleRequest *request) {
+    [[UNIRest get:^(UNISimpleRequest *request) {
         [request setUrl:serverUrl];
         [request setHeaders:headers];
         [request setParameters:parameters];
-    }] asJson];
-    
-    NSLog(@"%@", response);
+        NSLog(@"%@", serverUrl);
+    }] asJsonAsync:^(UNIHTTPJsonResponse* response, NSError *error) {
+        NSString* newStr = [[NSString alloc] initWithData:response.rawBody encoding:NSUTF8StringEncoding];
+        NSLog(@"%@", newStr);
+    }];
 }
 
 + (void)helloWorld {
     NSLog(@"Hello World! VibeProtocolFramework v%@ has compiled client side! Now running some server sanity calls...", VERSION_NUMBER);
-    
-    NSDictionary* headers = @{@"accept": @"application/json"};
     NSString *serverUrl = [NSString stringWithFormat:@"%s%s", SERVER_URL, HELLOWORLD_URL];
 
-    UNIHTTPJsonResponse *response = [[UNIRest post:^(UNISimpleRequest *request) {
+    [[UNIRest get:^(UNISimpleRequest *request) {
         [request setUrl:serverUrl];
-        [request setHeaders:headers];
-    }] asJson];
-    
-    NSLog(@"%@", response);
+        NSLog(@"%@", serverUrl);
+    }] asJsonAsync:^(UNIHTTPJsonResponse* response, NSError *error) {
+        NSString* newStr = [[NSString alloc] initWithData:response.rawBody encoding:NSUTF8StringEncoding];
+        NSLog(@"%@", newStr);
+    }];
 }
 
 @end

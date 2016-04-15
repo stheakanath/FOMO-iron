@@ -16,6 +16,7 @@
 @implementation ViewController
 
 - (void)viewDidLoad {
+//    [Authentication login:@"test@test.com" userPassword:@"lol"];
     [Authentication helloWorld];
     [super viewDidLoad];
 }
