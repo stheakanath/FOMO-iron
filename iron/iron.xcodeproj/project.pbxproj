@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		308C566F22972E275B4A0C6E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E0B5D33F419D85B799B1425 /* libPods.a */; };
 		69D5B18D4B67462E67D3081F /* libPods-iron.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E1B8DD1044F9E3498718FD56 /* libPods-iron.a */; };
+		EBE5D1721CC1D3D4001D0AFC /* IRLoadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE5D1711CC1D3D4001D0AFC /* IRLoadingViewController.m */; };
+		EBE5D1781CC1D56D001D0AFC /* IRLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE5D1771CC1D56D001D0AFC /* IRLoginViewController.m */; };
+		EBE5D17B1CC1D8ED001D0AFC /* IRLoginButton.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE5D17A1CC1D8ED001D0AFC /* IRLoginButton.m */; };
 		EBF739FB1CBF5D4000F2CC92 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF739FA1CBF5D4000F2CC92 /* main.m */; };
 		EBF739FE1CBF5D4000F2CC92 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF739FD1CBF5D4000F2CC92 /* AppDelegate.m */; };
 		EBF73A011CBF5D4000F2CC92 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF73A001CBF5D4000F2CC92 /* ViewController.m */; };
-		EBF73A041CBF5D4000F2CC92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBF73A021CBF5D4000F2CC92 /* Main.storyboard */; };
 		EBF73A061CBF5D4000F2CC92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBF73A051CBF5D4000F2CC92 /* Assets.xcassets */; };
-		EBF73A091CBF5D4000F2CC92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBF73A071CBF5D4000F2CC92 /* LaunchScreen.storyboard */; };
 		EBF73A141CBF5D4000F2CC92 /* ironTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF73A131CBF5D4000F2CC92 /* ironTests.m */; };
 		EBF73A1F1CBF5D4000F2CC92 /* ironUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF73A1E1CBF5D4000F2CC92 /* ironUITests.m */; };
 /* End PBXBuildFile section */
@@ -78,15 +79,19 @@
 		E1B8DD1044F9E3498718FD56 /* libPods-iron.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iron.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB1377361CBF77540048A065 /* VibeProtocolFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VibeProtocolFramework.framework; path = "VibeProtocolFramework/build/Debug-iphoneos/VibeProtocolFramework.framework"; sourceTree = "<group>"; };
 		EB13777D1CBF7E1B0048A065 /* VibeProtocolFramework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = VibeProtocolFramework.xcodeproj; path = ../VibeProtocolFramework/VibeProtocolFramework.xcodeproj; sourceTree = "<group>"; };
+		EBE5D1701CC1D3D4001D0AFC /* IRLoadingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IRLoadingViewController.h; path = LoginUI/IRLoadingViewController.h; sourceTree = "<group>"; };
+		EBE5D1711CC1D3D4001D0AFC /* IRLoadingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IRLoadingViewController.m; path = LoginUI/IRLoadingViewController.m; sourceTree = "<group>"; };
+		EBE5D1761CC1D56D001D0AFC /* IRLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IRLoginViewController.h; path = LoginUI/IRLoginViewController.h; sourceTree = "<group>"; };
+		EBE5D1771CC1D56D001D0AFC /* IRLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IRLoginViewController.m; path = LoginUI/IRLoginViewController.m; sourceTree = "<group>"; };
+		EBE5D1791CC1D8ED001D0AFC /* IRLoginButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IRLoginButton.h; path = LoginUI/IRLoginButton.h; sourceTree = "<group>"; };
+		EBE5D17A1CC1D8ED001D0AFC /* IRLoginButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IRLoginButton.m; path = LoginUI/IRLoginButton.m; sourceTree = "<group>"; };
 		EBF739F61CBF5D4000F2CC92 /* iron.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iron.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBF739FA1CBF5D4000F2CC92 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EBF739FC1CBF5D4000F2CC92 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EBF739FD1CBF5D4000F2CC92 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		EBF739FF1CBF5D4000F2CC92 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		EBF73A001CBF5D4000F2CC92 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		EBF73A031CBF5D4000F2CC92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EBF73A051CBF5D4000F2CC92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EBF73A081CBF5D4000F2CC92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EBF73A0A1CBF5D4000F2CC92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EBF73A0F1CBF5D4000F2CC92 /* ironTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ironTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBF73A131CBF5D4000F2CC92 /* ironTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ironTests.m; sourceTree = "<group>"; };
@@ -156,6 +161,12 @@
 		EBE5D16F1CC1D2A2001D0AFC /* Authentication + Login */ = {
 			isa = PBXGroup;
 			children = (
+				EBE5D1701CC1D3D4001D0AFC /* IRLoadingViewController.h */,
+				EBE5D1711CC1D3D4001D0AFC /* IRLoadingViewController.m */,
+				EBE5D1761CC1D56D001D0AFC /* IRLoginViewController.h */,
+				EBE5D1771CC1D56D001D0AFC /* IRLoginViewController.m */,
+				EBE5D1791CC1D8ED001D0AFC /* IRLoginButton.h */,
+				EBE5D17A1CC1D8ED001D0AFC /* IRLoginButton.m */,
 			);
 			name = "Authentication + Login";
 			sourceTree = "<group>";
@@ -191,9 +202,7 @@
 				EBF739FD1CBF5D4000F2CC92 /* AppDelegate.m */,
 				EBF739FF1CBF5D4000F2CC92 /* ViewController.h */,
 				EBF73A001CBF5D4000F2CC92 /* ViewController.m */,
-				EBF73A021CBF5D4000F2CC92 /* Main.storyboard */,
 				EBF73A051CBF5D4000F2CC92 /* Assets.xcassets */,
-				EBF73A071CBF5D4000F2CC92 /* LaunchScreen.storyboard */,
 				EBF73A0A1CBF5D4000F2CC92 /* Info.plist */,
 				EBF739F91CBF5D4000F2CC92 /* Supporting Files */,
 			);
@@ -354,9 +363,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EBF73A091CBF5D4000F2CC92 /* LaunchScreen.storyboard in Resources */,
 				EBF73A061CBF5D4000F2CC92 /* Assets.xcassets in Resources */,
-				EBF73A041CBF5D4000F2CC92 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,7 +388,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBE5D17B1CC1D8ED001D0AFC /* IRLoginButton.m in Sources */,
+				EBE5D1721CC1D3D4001D0AFC /* IRLoadingViewController.m in Sources */,
 				EBF73A011CBF5D4000F2CC92 /* ViewController.m in Sources */,
+				EBE5D1781CC1D56D001D0AFC /* IRLoginViewController.m in Sources */,
 				EBF739FE1CBF5D4000F2CC92 /* AppDelegate.m in Sources */,
 				EBF739FB1CBF5D4000F2CC92 /* main.m in Sources */,
 			);
@@ -422,25 +432,6 @@
 			targetProxy = EBF73A1B1CBF5D4000F2CC92 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		EBF73A021CBF5D4000F2CC92 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EBF73A031CBF5D4000F2CC92 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		EBF73A071CBF5D4000F2CC92 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EBF73A081CBF5D4000F2CC92 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		EBF73A211CBF5D4000F2CC92 /* Debug */ = {
