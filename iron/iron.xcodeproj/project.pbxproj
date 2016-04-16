@@ -20,6 +20,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		EB0732651CC1D080003F5889 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB13777D1CBF7E1B0048A065 /* VibeProtocolFramework.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = EB1377171CBF76D40048A065;
+			remoteInfo = VibeProtocolFramework;
+		};
 		EB1377821CBF7E1B0048A065 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = EB13777D1CBF7E1B0048A065 /* VibeProtocolFramework.xcodeproj */;
@@ -33,13 +40,6 @@
 			proxyType = 2;
 			remoteGlobalIDString = EB1377221CBF76D40048A065;
 			remoteInfo = VibeProtocolFrameworkTests;
-		};
-		EB13778C1CBF81790048A065 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EB13777D1CBF7E1B0048A065 /* VibeProtocolFramework.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = EB1377171CBF76D40048A065;
-			remoteInfo = VibeProtocolFramework;
 		};
 		EBF73A101CBF5D4000F2CC92 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -153,6 +153,13 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		EBE5D16F1CC1D2A2001D0AFC /* Authentication + Login */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Authentication + Login";
+			sourceTree = "<group>";
+		};
 		EBF739ED1CBF5D4000F2CC92 = {
 			isa = PBXGroup;
 			children = (
@@ -179,6 +186,7 @@
 		EBF739F81CBF5D4000F2CC92 /* iron */ = {
 			isa = PBXGroup;
 			children = (
+				EBE5D16F1CC1D2A2001D0AFC /* Authentication + Login */,
 				EBF739FC1CBF5D4000F2CC92 /* AppDelegate.h */,
 				EBF739FD1CBF5D4000F2CC92 /* AppDelegate.m */,
 				EBF739FF1CBF5D4000F2CC92 /* ViewController.h */,
@@ -233,7 +241,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				EB13778D1CBF81790048A065 /* PBXTargetDependency */,
+				EB0732661CC1D080003F5889 /* PBXTargetDependency */,
 			);
 			name = iron;
 			productName = iron;
@@ -398,10 +406,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		EB13778D1CBF81790048A065 /* PBXTargetDependency */ = {
+		EB0732661CC1D080003F5889 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = VibeProtocolFramework;
-			targetProxy = EB13778C1CBF81790048A065 /* PBXContainerItemProxy */;
+			targetProxy = EB0732651CC1D080003F5889 /* PBXContainerItemProxy */;
 		};
 		EBF73A111CBF5D4000F2CC92 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -521,19 +529,12 @@
 		};
 		EBF73A241CBF5D4000F2CC92 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9400E240B574559D348B5469 /* Pods-iron.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/VibeProtocolFramework/build/Debug-iphoneos",
-				);
+				FRAMEWORK_SEARCH_PATHS = "";
 				INFOPLIST_FILE = iron/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/iron/VibeProtocol/build/Debug-iphoneos",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sonytheakanath.iron;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "../** $(BUILT_PRODUCTS_DIR)/**";
@@ -542,19 +543,12 @@
 		};
 		EBF73A251CBF5D4000F2CC92 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0B3FFC285AD44BDFB7780D88 /* Pods-iron.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/VibeProtocolFramework/build/Debug-iphoneos",
-				);
+				FRAMEWORK_SEARCH_PATHS = "";
 				INFOPLIST_FILE = iron/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/iron/VibeProtocol/build/Debug-iphoneos",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sonytheakanath.iron;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "../** $(BUILT_PRODUCTS_DIR)/**";

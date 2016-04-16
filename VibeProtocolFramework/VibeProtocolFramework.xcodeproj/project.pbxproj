@@ -11,8 +11,8 @@
 		EB13771C1CBF76D40048A065 /* VibeProtocolFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = EB13771B1CBF76D40048A065 /* VibeProtocolFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EB1377231CBF76D40048A065 /* VibeProtocolFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB1377181CBF76D40048A065 /* VibeProtocolFramework.framework */; };
 		EB1377281CBF76D40048A065 /* VibeProtocolFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB1377271CBF76D40048A065 /* VibeProtocolFrameworkTests.m */; };
-		EB1377341CBF77250048A065 /* Authentication.h in Headers */ = {isa = PBXBuildFile; fileRef = EB1377321CBF77250048A065 /* Authentication.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EB1377351CBF77250048A065 /* Authentication.m in Sources */ = {isa = PBXBuildFile; fileRef = EB1377331CBF77250048A065 /* Authentication.m */; };
+		EB1377341CBF77250048A065 /* VPAuthentication.h in Headers */ = {isa = PBXBuildFile; fileRef = EB1377321CBF77250048A065 /* VPAuthentication.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB1377351CBF77250048A065 /* VPAuthentication.m in Sources */ = {isa = PBXBuildFile; fileRef = EB1377331CBF77250048A065 /* VPAuthentication.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +35,9 @@
 		EB1377221CBF76D40048A065 /* VibeProtocolFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VibeProtocolFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB1377271CBF76D40048A065 /* VibeProtocolFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VibeProtocolFrameworkTests.m; sourceTree = "<group>"; };
 		EB1377291CBF76D40048A065 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EB1377321CBF77250048A065 /* Authentication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Authentication.h; sourceTree = "<group>"; };
-		EB1377331CBF77250048A065 /* Authentication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Authentication.m; sourceTree = "<group>"; };
-		EBE170621CBF8CFA00B9DB3C /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		EB1377321CBF77250048A065 /* VPAuthentication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VPAuthentication.h; sourceTree = "<group>"; };
+		EB1377331CBF77250048A065 /* VPAuthentication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VPAuthentication.m; sourceTree = "<group>"; };
+		EBE170621CBF8CFA00B9DB3C /* VPConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VPConstants.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,9 +101,9 @@
 			isa = PBXGroup;
 			children = (
 				EB13771B1CBF76D40048A065 /* VibeProtocolFramework.h */,
-				EB1377321CBF77250048A065 /* Authentication.h */,
-				EB1377331CBF77250048A065 /* Authentication.m */,
-				EBE170621CBF8CFA00B9DB3C /* Constants.h */,
+				EB1377321CBF77250048A065 /* VPAuthentication.h */,
+				EB1377331CBF77250048A065 /* VPAuthentication.m */,
+				EBE170621CBF8CFA00B9DB3C /* VPConstants.h */,
 				EB13771D1CBF76D40048A065 /* Info.plist */,
 			);
 			path = VibeProtocolFramework;
@@ -125,7 +125,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB1377341CBF77250048A065 /* Authentication.h in Headers */,
+				EB1377341CBF77250048A065 /* VPAuthentication.h in Headers */,
 				EB13771C1CBF76D40048A065 /* VibeProtocolFramework.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,8 +140,8 @@
 				CD46E65135BB2273DE1C8495 /* Check Pods Manifest.lock */,
 				EB1377131CBF76D40048A065 /* Sources */,
 				EB1377141CBF76D40048A065 /* Frameworks */,
-				EB1377151CBF76D40048A065 /* Headers */,
 				EB1377161CBF76D40048A065 /* Resources */,
+				EB1377151CBF76D40048A065 /* Headers */,
 				056F6B4DF5D0274475385327 /* Copy Pods Resources */,
 			);
 			buildRules = (
@@ -261,7 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB1377351CBF77250048A065 /* Authentication.m in Sources */,
+				EB1377351CBF77250048A065 /* VPAuthentication.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

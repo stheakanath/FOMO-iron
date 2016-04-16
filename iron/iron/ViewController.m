@@ -17,7 +17,7 @@
 
 - (void)viewDidLoad {
 //    [Authentication login:@"test@test.com" userPassword:@"lol"];
-    [Authentication helloWorld];
+    [VPAuthentication helloWorld];
     [super viewDidLoad];
 }
 

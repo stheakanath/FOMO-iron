@@ -6,11 +6,11 @@
 //  Copyright © 2016 Kuriakose Sony Theakanath. All rights reserved.
 //
 
-#import "Authentication.h"
-#import "Constants.h"
+#import "VPAuthentication.h"
+#import "VPConstants.h"
 #import <UNIRest.h>
 
-@implementation Authentication
+@implementation VPAuthentication
 
 // Main methods
 + (void)registerUser:(NSString *)email userPassword:(NSString *)password {

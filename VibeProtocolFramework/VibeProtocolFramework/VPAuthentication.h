@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Authentication : NSObject
+@interface VPAuthentication : NSObject
 
 // Main methods
 + (void)registerUser:(NSString *)email userPassword:(NSString *)password;
