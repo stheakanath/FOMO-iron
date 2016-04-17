@@ -8,9 +8,10 @@ xcodeproj 'VibeProtocolFramework/VibeProtocolFramework.xcodeproj'
 # Uncomment this line if you're using Swift
 # use_frameworks!
 
-# target 'iron' do
-#  xcodeproj 'iron/iron.xcodeproj'
-# end
+target 'iron' do
+	pod 'FBSDKCoreKit'
+	xcodeproj 'iron/iron.xcodeproj'
+end
 
 target 'VibeProtocolFramework' do
 	pod 'Unirest', '~> 1.1.4'

@@ -16,7 +16,7 @@
 @implementation ViewController
 
 - (void)viewDidLoad {
-//    [Authentication login:@"test@test.com" userPassword:@"lol"];
+    [VPAuthentication registerUser:@"sony@vibe.io" userPassword:@"vibe"];
 //    [VPAuthentication helloWorld];
     [super viewDidLoad];
 }

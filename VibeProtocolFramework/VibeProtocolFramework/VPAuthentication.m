@@ -18,7 +18,7 @@
     NSDictionary *parameters = @{@"email": email, @"password": password};
     NSString *serverUrl = [NSString stringWithFormat:@"%s%s", SERVER_URL, LOGIN_URL];
 
-    [[UNIRest get:^(UNISimpleRequest *request) {
+    [[UNIRest put:^(UNISimpleRequest *request) {
         [request setUrl:serverUrl];
         [request setHeaders:headers];
         [request setParameters:parameters];

@@ -11,8 +11,8 @@
 @implementation IRLoginViewController
 
 - (void)viewDidLoad {
-    self.facebookButton = [IRLoginButton init:@"Login With Facebook" buttonStyle:@"fb"];
-    [self.view addSubview:self.facebookButton];
+//    self.facebookButton = [IRLoginButton init:@"Login With Facebook" buttonStyle:@"fb"];
+//    [self.view addSubview:self.facebookButton];
     [self.view setBackgroundColor:[UIColor whiteColor]];
 }
 
