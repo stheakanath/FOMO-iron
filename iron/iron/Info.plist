@@ -22,11 +22,29 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
-	<key>NSAppTransportSecurity</key>
-	<dict>
-		<key>NSAllowsArbitraryLoads</key>
-		<true/>
-	</dict>
+    <key>NSAppTransportSecurity</key>
+    <dict>
+        <key>NSAllowsArbitraryLoads</key>
+        <true/>
+        <key>NSExceptionDomains</key>
+        <dict>
+            <key>facebook.com</key>
+            <dict>
+                <key>NSIncludesSubdomains</key> <true/>
+                <key>NSThirdPartyExceptionRequiresForwardSecrecy</key> <false/>
+            </dict>
+            <key>fbcdn.net</key>
+            <dict>
+                <key>NSIncludesSubdomains</key> <true/>
+                <key>NSThirdPartyExceptionRequiresForwardSecrecy</key>  <false/>
+            </dict>
+            <key>akamaihd.net</key>
+            <dict>
+                <key>NSIncludesSubdomains</key> <true/>
+                <key>NSThirdPartyExceptionRequiresForwardSecrecy</key> <false/>
+            </dict>
+        </dict>
+    </dict>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIRequiredDeviceCapabilities</key>
@@ -44,5 +62,24 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>fb538555686346180</string>
+			</array>
+		</dict>
+	</array>
+	<key>FacebookAppID</key>
+	<string>538555686346180</string>
+	<key>FacebookDisplayName</key>
+	<string>Iron</string>
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+        <string>fbapi</string>
+        <string>fbauth</string>
+        <string>fbauth2</string>
+    </array>
 </dict>
 </plist>

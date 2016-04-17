@@ -6,9 +6,9 @@
 //  Copyright © 2016 Kuriakose Sony Theakanath. All rights reserved.
 //
 
-#import "ViewController.h"
+#import <UIKit/UIKit.h>
 
-@interface IRLoadingViewController : ViewController
+@interface IRLoadingViewController : UIViewController
 
 @property (nonatomic, retain) UIImageView *logo;
 

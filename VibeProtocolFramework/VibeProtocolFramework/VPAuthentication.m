@@ -29,6 +29,21 @@
     }];
 }
 
++ (void)registerFacebook:(FBSDKAccessToken *)token {
+    NSDictionary *parameters = @{@"token": [token userID]};
+    NSString *serverUrl = [NSString stringWithFormat:@"%s%s", SERVER_URL, FB_URL];
+    
+    [[UNIRest put:^(UNISimpleRequest *request) {
+        [request setUrl:serverUrl];
+        [request setParameters:parameters];
+        NSLog(@"%@", serverUrl);
+    }] asJsonAsync:^(UNIHTTPJsonResponse* response, NSError *error) {
+        NSString* newStr = [[NSString alloc] initWithData:response.rawBody encoding:NSUTF8StringEncoding];
+        NSLog(@"%@", newStr);
+    }];
+
+}
+
 + (void)login:(NSString *)email userPassword:(NSString *)password {
     NSDictionary *headers = @{@"accept": @"application/json"};
     NSDictionary *parameters = @{@"email": email, @"password": password};

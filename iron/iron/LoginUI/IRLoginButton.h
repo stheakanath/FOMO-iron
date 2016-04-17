@@ -10,6 +10,6 @@
 
 @interface IRLoginButton : UIButton
 
-- (id)init:(NSString*)buttonTitle buttonStyle:(NSString*)style;
+- (id)init:(NSString *)buttonTitle buttonStyle:(NSString *)style spaceFromBottom:(CGFloat)fromBottom;
 
 @end

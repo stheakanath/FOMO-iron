@@ -378,6 +378,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0ABA470CD341F2FA39F89EF6 /* Pods-VibeProtocolFramework.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -395,6 +396,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B1DC084F3FDDC25ED80CF443 /* Pods-VibeProtocolFramework.release.xcconfig */;
 			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
