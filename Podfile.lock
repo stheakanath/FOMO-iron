@@ -7,15 +7,19 @@ PODS:
   - Bolts/Tasks (1.7.0)
   - FBSDKCoreKit (4.11.0):
     - Bolts (~> 1.7)
+  - FBSDKLoginKit (4.11.0):
+    - FBSDKCoreKit
   - Unirest (1.1.4)
 
 DEPENDENCIES:
   - FBSDKCoreKit
+  - FBSDKLoginKit
   - Unirest (~> 1.1.4)
 
 SPEC CHECKSUMS:
   Bolts: a0058fa3b331c5a1e4402d534f2dae36dbff31e4
   FBSDKCoreKit: 686ac982723a14ec9ddb85e2f81235d7706c891b
+  FBSDKLoginKit: bade9fc78277764149ccc5bfaadbf13c83175c6a
   Unirest: 5e4d93eaf32463bf619a4ecd3bbc8c32acf21eac
 
 COCOAPODS: 0.39.0

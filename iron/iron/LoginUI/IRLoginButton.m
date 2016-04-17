@@ -7,12 +7,24 @@
 //
 
 #import "IRLoginButton.h"
+#import "IRGlobalConstants.h"
+#import "IRLoginConstants.h"
 
 @implementation IRLoginButton
 
-- (id)init:(NSString*)buttonTitle buttonStyle:(NSString*)style {
+- (id)init:(NSString*)buttonTitle buttonStyle:(NSString*)style spaceFromBottom:(CGFloat)fromBottom {
     self = [UIButton buttonWithType:UIButtonTypeCustom];
-    [self setTitle:buttonTitle forState:UIControlStateNormal];
+    if (self) {
+        [self setFrame:CGRectMake(20, DEVICE_HEIGHT - fromBottom, IRLOGINBUTTONWIDTH, IRLOGINBUTTONHEIGHT)];
+        [self setTitle:buttonTitle forState:UIControlStateNormal];
+        if ([style isEqualToString:@"fb"]) {
+            [self setBackgroundColor:[UIColor blueColor]];
+        } else if ([style isEqualToString:@"green"]) {
+            [self setBackgroundColor:[UIColor greenColor]];
+        } else {
+            [self setBackgroundColor:[UIColor grayColor]];
+        }
+    }
     return self;
 }
 

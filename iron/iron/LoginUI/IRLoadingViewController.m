@@ -12,11 +12,11 @@
 @implementation IRLoadingViewController
 
 - (void)interfaceSetup {
-    self.logo = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"placeholder_logo.png"]];
-    [self.view addSubview:self.logo];
+//    self.logo = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"placeholder_logo.png"]];
+//    [self.view addSubview:self.logo];
     
     //Background color
-    [self.view setBackgroundColor:[UIColor whiteColor]];
+    [self.view setBackgroundColor:[UIColor greenColor]];
 }
 
 - (void)viewDidLoad {
@@ -31,7 +31,6 @@
 - (void)setUpComplete {
     IRLoginViewController *loginView = [[IRLoginViewController alloc] init];
     [self presentViewController:loginView animated:NO completion:nil];
-//    [self p:loginView animated:NO];
 }
 
 @end

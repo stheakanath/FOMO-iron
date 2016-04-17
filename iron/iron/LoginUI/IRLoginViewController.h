@@ -6,10 +6,10 @@
 //  Copyright © 2016 Kuriakose Sony Theakanath. All rights reserved.
 //
 
-#import "ViewController.h"
+#import <UIKit/UIKit.h>
 #import "IRLoginButton.h"
 
-@interface IRLoginViewController : ViewController
+@interface IRLoginViewController : UIViewController
 
 @property (nonatomic, retain) IRLoginButton *facebookButton;
 @property (nonatomic, retain) IRLoginButton *signupButton;

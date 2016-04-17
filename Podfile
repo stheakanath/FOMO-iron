@@ -10,6 +10,7 @@ xcodeproj 'VibeProtocolFramework/VibeProtocolFramework.xcodeproj'
 
 target 'iron' do
 	pod 'FBSDKCoreKit'
+	pod 'FBSDKLoginKit'
 	xcodeproj 'iron/iron.xcodeproj'
 end
 

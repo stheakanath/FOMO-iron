@@ -14,6 +14,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>FBSDKLoginKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-VibeProtocolFramework.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -32,12 +37,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>27F4AE676D6C30A939FCF683996FF994</key>
+		<key>2EC0FDD939BDFED47141782A637453BA</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>2EC0FDD939BDFED47141782A637453BA</key>
+		<key>4E286D373D75563CE26E479A68203892</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -53,6 +58,11 @@
 			<true/>
 		</dict>
 		<key>C43DEF8E5BFEC36D943258BA3F21834D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EC5AFE62E7644A6BE4C44DFF6B6A0E49</key>
 		<dict>
 			<key>primary</key>
 			<true/>

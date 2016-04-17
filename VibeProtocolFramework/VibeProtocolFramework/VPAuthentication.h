@@ -7,12 +7,15 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <FBSDKCoreKit/FBSDKCoreKit.h>
+#import <FBSDKLoginKit/FBSDKLoginKit.h>
 
 @interface VPAuthentication : NSObject
 
 // Main methods
 + (void)registerUser:(NSString *)email userPassword:(NSString *)password;
 + (void)login:(NSString *)email userPassword:(NSString *)password;
++ (void)registerFacebook:(FBSDKAccessToken *)token;
 
 // Testing private methods, view API for explanation
 + (void)number:(NSString *)token;
