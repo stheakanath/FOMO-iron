@@ -7,7 +7,10 @@
 //
 
 #import "IRLoginViewController.h"
-#import <VibeProtocolFramework/VibeProtocolFramework.h>
+#import "IRPlayerViewController.h"
+#import <FBSDKCoreKit/FBSDKCoreKit.h>
+#import <FBSDKLoginKit/FBSDKLoginKit.h>
+#import <VibeProtocolFramework/VPAuthentication.h>
 
 @implementation IRLoginViewController
 
@@ -19,12 +22,19 @@
     self.loginButton = [[IRLoginButton alloc] init:@"Login" buttonStyle:@"green" spaceFromBottom:60];
     [self.loginButton addTarget:self action:@selector(loginClicked:) forControlEvents:UIControlEventTouchUpInside];
     
+    self.usernameField = [[UITextField alloc] initWithFrame:CGRectMake(0, 0, 200, 70)];
+    [self.usernameField setBackgroundColor:[UIColor grayColor]];
+    self.passwordField = [[UITextField alloc] initWithFrame:CGRectMake(0, 80, 200, 70)];
+    [self.passwordField setSecureTextEntry:YES];
+    [self.passwordField setBackgroundColor:[UIColor grayColor]];
+    [self.view addSubview:self.usernameField];
+    [self.view addSubview:self.passwordField];
+    
     [self.view addSubview:self.facebookButton];
     [self.view addSubview:self.signupButton];
     [self.view addSubview:self.loginButton];
     
     [self.view setBackgroundColor:[UIColor lightGrayColor]];
-//
 }
 
 - (IBAction)fbButtonClicked:(id)sender {
@@ -36,7 +46,15 @@
          } else if (result.isCancelled) {
              NSLog(@"User cancelled login flow.");
          } else {
-             [VPAuthentication registerFacebook:[result token]];
+             [VPAuthentication registerFacebook:[result token] completed:^(NSString* response, NSError* error) {
+                 if (!error) {
+                     [[NSOperationQueue mainQueue] addOperationWithBlock:^() {
+                         IRPlayerViewController *playerView = [[IRPlayerViewController alloc] init];
+                         [self presentViewController:playerView animated:YES completion:nil];
+                         
+                     }];
+                 }
+             }];
              NSLog(@"Logged in %@", [result token]);
          }
      }];
@@ -44,11 +62,28 @@
 }
 
 - (IBAction)signUpClicked:(id)sender {
-    
+    [VPAuthentication registerUser:self.usernameField.text userPassword:self.passwordField.text completed:^(NSString* response, NSError* error) {
+        if (!error) {
+            [[NSOperationQueue mainQueue] addOperationWithBlock:^() {
+                IRPlayerViewController *playerView = [[IRPlayerViewController alloc] init];
+                [self presentViewController:playerView animated:YES completion:nil];
+                
+            }];
+        }
+    }];
+
 }
 
 - (IBAction)loginClicked:(id)sender {
-    
+    [VPAuthentication login:self.usernameField.text userPassword:self.passwordField.text completed:^(NSString* response, NSError* error) {
+        if (!error) {
+            [[NSOperationQueue mainQueue] addOperationWithBlock:^() {
+                IRPlayerViewController *playerView = [[IRPlayerViewController alloc] init];
+                [self presentViewController:playerView animated:YES completion:nil];
+
+            }];
+        }
+    }];
 }
 
 @end

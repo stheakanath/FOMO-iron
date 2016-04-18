@@ -8,12 +8,12 @@
 
 #import "VPAuthentication.h"
 #import "VPConstants.h"
-#import <UNIRest.h>
+#import "IRError.h"
 
 @implementation VPAuthentication
 
 // Main methods
-+ (void)registerUser:(NSString *)email userPassword:(NSString *)password {
++ (void)registerUser:(NSString *)email userPassword:(NSString *)password completed:(completedHandler)handle {
     NSDictionary *headers = @{@"accept": @"application/json"};
     NSDictionary *parameters = @{@"email": email, @"password": password};
     NSString *serverUrl = [NSString stringWithFormat:@"%s%s", SERVER_URL, LOGIN_URL];
@@ -24,12 +24,20 @@
         [request setParameters:parameters];
         NSLog(@"%@", serverUrl);
     }] asJsonAsync:^(UNIHTTPJsonResponse* response, NSError *error) {
-        NSString* newStr = [[NSString alloc] initWithData:response.rawBody encoding:NSUTF8StringEncoding];
-        NSLog(@"%@", newStr);
+        NSString* userDriverId = [[NSString alloc] initWithData:response.rawBody encoding:NSUTF8StringEncoding];
+        if ([userDriverId rangeOfString:@"404"].location != NSNotFound) {
+            error = [NSError errorWithDomain:IRIronErrorDomain code:IRProfileParsingFailedError userInfo:nil];
+        } else if ([userDriverId rangeOfString:@"401"].location != NSNotFound) {
+            error = [NSError errorWithDomain:IRIronErrorDomain code:IRProfileBadLoginError userInfo:nil];
+        } else if ([userDriverId rangeOfString:@"500"].location != NSNotFound) {
+            error = [NSError errorWithDomain:IRIronErrorDomain code:IRProfileBadLoginError userInfo:nil];
+        }
+        uniqueUserId = userDriverId;
+        handle(uniqueUserId, error);
     }];
 }
 
-+ (void)registerFacebook:(FBSDKAccessToken *)token {
++ (void)registerFacebook:(FBSDKAccessToken *)token completed:(completedHandler)handle {
     NSDictionary *parameters = @{@"token": [token userID]};
     NSString *serverUrl = [NSString stringWithFormat:@"%s%s", SERVER_URL, FB_URL];
     
@@ -38,13 +46,21 @@
         [request setParameters:parameters];
         NSLog(@"%@", serverUrl);
     }] asJsonAsync:^(UNIHTTPJsonResponse* response, NSError *error) {
-        NSString* newStr = [[NSString alloc] initWithData:response.rawBody encoding:NSUTF8StringEncoding];
-        NSLog(@"%@", newStr);
+        NSString* userDriverId = [[NSString alloc] initWithData:response.rawBody encoding:NSUTF8StringEncoding];
+        if ([userDriverId rangeOfString:@"404"].location != NSNotFound) {
+            error = [NSError errorWithDomain:IRIronErrorDomain code:IRProfileParsingFailedError userInfo:nil];
+        } else if ([userDriverId rangeOfString:@"401"].location != NSNotFound) {
+            error = [NSError errorWithDomain:IRIronErrorDomain code:IRProfileBadLoginError userInfo:nil];
+        } else if ([userDriverId rangeOfString:@"500"].location != NSNotFound) {
+            error = [NSError errorWithDomain:IRIronErrorDomain code:IRProfileBadLoginError userInfo:nil];
+        }
+        uniqueUserId = userDriverId;
+        handle(uniqueUserId, error);
     }];
 
 }
 
-+ (void)login:(NSString *)email userPassword:(NSString *)password {
++ (void)login:(NSString *)email userPassword:(NSString *)password completed:(completedHandler)handle {
     NSDictionary *headers = @{@"accept": @"application/json"};
     NSDictionary *parameters = @{@"email": email, @"password": password};
     NSString *serverUrl = [NSString stringWithFormat:@"%s%s", SERVER_URL, LOGIN_URL];
@@ -55,8 +71,16 @@
         [request setParameters:parameters];
         NSLog(@"%@", serverUrl);
     }] asJsonAsync:^(UNIHTTPJsonResponse* response, NSError *error) {
-        NSString* newStr = [[NSString alloc] initWithData:response.rawBody encoding:NSUTF8StringEncoding];
-        NSLog(@"%@", newStr);
+        NSString* userDriverId = [[NSString alloc] initWithData:response.rawBody encoding:NSUTF8StringEncoding];
+        if ([userDriverId rangeOfString:@"404"].location != NSNotFound) {
+            error = [NSError errorWithDomain:IRIronErrorDomain code:IRProfileParsingFailedError userInfo:nil];
+        } else if ([userDriverId rangeOfString:@"401"].location != NSNotFound) {
+            error = [NSError errorWithDomain:IRIronErrorDomain code:IRProfileBadLoginError userInfo:nil];
+        } else if ([userDriverId rangeOfString:@"500"].location != NSNotFound) {
+            error = [NSError errorWithDomain:IRIronErrorDomain code:IRProfileBadLoginError userInfo:nil];
+        }
+        uniqueUserId = userDriverId;
+        handle(uniqueUserId, error);
     }];
 }
 
@@ -79,6 +103,10 @@
         NSString* newStr = [[NSString alloc] initWithData:response.rawBody encoding:NSUTF8StringEncoding];
         NSLog(@"%@", newStr);
     }];
+}
+
++ (NSString*) getLoggedInUser {
+    return uniqueUserId;
 }
 
 + (void)helloWorld {

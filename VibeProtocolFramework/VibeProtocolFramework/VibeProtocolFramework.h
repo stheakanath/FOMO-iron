@@ -15,5 +15,5 @@ FOUNDATION_EXPORT double VibeProtocolFrameworkVersionNumber;
 FOUNDATION_EXPORT const unsigned char VibeProtocolFrameworkVersionString[];
 
 // All import headers
-//#import <VibeProtocolFramework/VPAuthentication.h>
+#import <VibeProtocolFramework/VPAuthentication.h>
 

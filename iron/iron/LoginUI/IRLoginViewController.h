@@ -15,4 +15,7 @@
 @property (nonatomic, retain) IRLoginButton *signupButton;
 @property (nonatomic, retain) IRLoginButton *loginButton;
 
+@property (nonatomic, retain) UITextField *usernameField;
+@property (nonatomic, retain) UITextField *passwordField;
+
 @end

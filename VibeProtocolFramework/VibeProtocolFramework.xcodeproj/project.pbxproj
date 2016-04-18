@@ -13,6 +13,8 @@
 		EB1377281CBF76D40048A065 /* VibeProtocolFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB1377271CBF76D40048A065 /* VibeProtocolFrameworkTests.m */; };
 		EB1377341CBF77250048A065 /* VPAuthentication.h in Headers */ = {isa = PBXBuildFile; fileRef = EB1377321CBF77250048A065 /* VPAuthentication.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EB1377351CBF77250048A065 /* VPAuthentication.m in Sources */ = {isa = PBXBuildFile; fileRef = EB1377331CBF77250048A065 /* VPAuthentication.m */; };
+		EB7EE0E61CC48FC700EAC26C /* IRError.h in Headers */ = {isa = PBXBuildFile; fileRef = EB7EE0E41CC48FC700EAC26C /* IRError.h */; };
+		EB7EE0E71CC48FC700EAC26C /* IRError.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7EE0E51CC48FC700EAC26C /* IRError.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +39,8 @@
 		EB1377291CBF76D40048A065 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB1377321CBF77250048A065 /* VPAuthentication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VPAuthentication.h; sourceTree = "<group>"; };
 		EB1377331CBF77250048A065 /* VPAuthentication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VPAuthentication.m; sourceTree = "<group>"; };
+		EB7EE0E41CC48FC700EAC26C /* IRError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRError.h; sourceTree = "<group>"; };
+		EB7EE0E51CC48FC700EAC26C /* IRError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IRError.m; sourceTree = "<group>"; };
 		EBE170621CBF8CFA00B9DB3C /* VPConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VPConstants.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,6 +107,8 @@
 				EB13771B1CBF76D40048A065 /* VibeProtocolFramework.h */,
 				EB1377321CBF77250048A065 /* VPAuthentication.h */,
 				EB1377331CBF77250048A065 /* VPAuthentication.m */,
+				EB7EE0E41CC48FC700EAC26C /* IRError.h */,
+				EB7EE0E51CC48FC700EAC26C /* IRError.m */,
 				EBE170621CBF8CFA00B9DB3C /* VPConstants.h */,
 				EB13771D1CBF76D40048A065 /* Info.plist */,
 			);
@@ -126,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB1377341CBF77250048A065 /* VPAuthentication.h in Headers */,
+				EB7EE0E61CC48FC700EAC26C /* IRError.h in Headers */,
 				EB13771C1CBF76D40048A065 /* VibeProtocolFramework.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB1377351CBF77250048A065 /* VPAuthentication.m in Sources */,
+				EB7EE0E71CC48FC700EAC26C /* IRError.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

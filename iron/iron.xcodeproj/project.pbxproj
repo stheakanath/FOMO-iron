@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		308C566F22972E275B4A0C6E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E0B5D33F419D85B799B1425 /* libPods.a */; };
 		69D5B18D4B67462E67D3081F /* libPods-iron.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E1B8DD1044F9E3498718FD56 /* libPods-iron.a */; };
+		EB7EE0DE1CC48C7E00EAC26C /* IRPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7EE0DD1CC48C7E00EAC26C /* IRPlayerViewController.m */; };
+		EB7EE0E31CC48F5100EAC26C /* IRError.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7EE0E21CC48F5100EAC26C /* IRError.m */; };
 		EBE5D1721CC1D3D4001D0AFC /* IRLoadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE5D1711CC1D3D4001D0AFC /* IRLoadingViewController.m */; };
 		EBE5D1781CC1D56D001D0AFC /* IRLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE5D1771CC1D56D001D0AFC /* IRLoginViewController.m */; };
 		EBE5D17B1CC1D8ED001D0AFC /* IRLoginButton.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE5D17A1CC1D8ED001D0AFC /* IRLoginButton.m */; };
@@ -80,6 +82,10 @@
 		EB13777D1CBF7E1B0048A065 /* VibeProtocolFramework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = VibeProtocolFramework.xcodeproj; path = ../VibeProtocolFramework/VibeProtocolFramework.xcodeproj; sourceTree = "<group>"; };
 		EB7EE0D61CC3432E00EAC26C /* IRLoginConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IRLoginConstants.h; path = LoginUI/IRLoginConstants.h; sourceTree = "<group>"; };
 		EB7EE0D71CC3448000EAC26C /* IRGlobalConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRGlobalConstants.h; sourceTree = "<group>"; };
+		EB7EE0DC1CC48C7E00EAC26C /* IRPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IRPlayerViewController.h; path = MainUI/IRPlayerViewController.h; sourceTree = "<group>"; };
+		EB7EE0DD1CC48C7E00EAC26C /* IRPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IRPlayerViewController.m; path = MainUI/IRPlayerViewController.m; sourceTree = "<group>"; };
+		EB7EE0E11CC48F5000EAC26C /* IRError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRError.h; sourceTree = "<group>"; };
+		EB7EE0E21CC48F5100EAC26C /* IRError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IRError.m; sourceTree = "<group>"; };
 		EBE5D1701CC1D3D4001D0AFC /* IRLoadingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IRLoadingViewController.h; path = LoginUI/IRLoadingViewController.h; sourceTree = "<group>"; };
 		EBE5D1711CC1D3D4001D0AFC /* IRLoadingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IRLoadingViewController.m; path = LoginUI/IRLoadingViewController.m; sourceTree = "<group>"; };
 		EBE5D1761CC1D56D001D0AFC /* IRLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IRLoginViewController.h; path = LoginUI/IRLoginViewController.h; sourceTree = "<group>"; };
@@ -157,6 +163,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		EB7EE0E01CC48C8600EAC26C /* Main UI */ = {
+			isa = PBXGroup;
+			children = (
+				EB7EE0DC1CC48C7E00EAC26C /* IRPlayerViewController.h */,
+				EB7EE0DD1CC48C7E00EAC26C /* IRPlayerViewController.m */,
+			);
+			name = "Main UI";
+			sourceTree = "<group>";
+		};
 		EBE5D16F1CC1D2A2001D0AFC /* Authentication + Login */ = {
 			isa = PBXGroup;
 			children = (
@@ -198,11 +213,7 @@
 			isa = PBXGroup;
 			children = (
 				EBE5D16F1CC1D2A2001D0AFC /* Authentication + Login */,
-				EB7EE0D71CC3448000EAC26C /* IRGlobalConstants.h */,
-				EBF739FC1CBF5D4000F2CC92 /* AppDelegate.h */,
-				EBF739FD1CBF5D4000F2CC92 /* AppDelegate.m */,
-				EBF73A051CBF5D4000F2CC92 /* Assets.xcassets */,
-				EBF73A0A1CBF5D4000F2CC92 /* Info.plist */,
+				EB7EE0E01CC48C8600EAC26C /* Main UI */,
 				EBF739F91CBF5D4000F2CC92 /* Supporting Files */,
 			);
 			path = iron;
@@ -211,7 +222,14 @@
 		EBF739F91CBF5D4000F2CC92 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EB7EE0D71CC3448000EAC26C /* IRGlobalConstants.h */,
+				EBF739FC1CBF5D4000F2CC92 /* AppDelegate.h */,
+				EBF739FD1CBF5D4000F2CC92 /* AppDelegate.m */,
+				EB7EE0E11CC48F5000EAC26C /* IRError.h */,
+				EB7EE0E21CC48F5100EAC26C /* IRError.m */,
 				EBF739FA1CBF5D4000F2CC92 /* main.m */,
+				EBF73A051CBF5D4000F2CC92 /* Assets.xcassets */,
+				EBF73A0A1CBF5D4000F2CC92 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -410,7 +428,9 @@
 				EBE5D1721CC1D3D4001D0AFC /* IRLoadingViewController.m in Sources */,
 				EBE5D1781CC1D56D001D0AFC /* IRLoginViewController.m in Sources */,
 				EBF739FE1CBF5D4000F2CC92 /* AppDelegate.m in Sources */,
+				EB7EE0DE1CC48C7E00EAC26C /* IRPlayerViewController.m in Sources */,
 				EBF739FB1CBF5D4000F2CC92 /* main.m in Sources */,
+				EB7EE0E31CC48F5100EAC26C /* IRError.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -540,6 +560,7 @@
 			baseConfigurationReference = 9400E240B574559D348B5469 /* Pods-iron.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = "";
 				INFOPLIST_FILE = iron/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -555,6 +576,7 @@
 			baseConfigurationReference = 0B3FFC285AD44BDFB7780D88 /* Pods-iron.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = "";
 				INFOPLIST_FILE = iron/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

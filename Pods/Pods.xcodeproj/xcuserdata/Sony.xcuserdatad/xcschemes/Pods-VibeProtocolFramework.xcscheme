@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '253D139C009D94CCAFF8F178'
+               BlueprintIdentifier = '78C79AC526BD013C78F2D4F2'
                BlueprintName = 'Pods-VibeProtocolFramework'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libPods-VibeProtocolFramework.a'>
